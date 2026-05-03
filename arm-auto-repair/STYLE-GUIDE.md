@@ -319,28 +319,35 @@ Focus state: Border ARM Blue, subtle shadow
 
 ---
 
-## Page Structure (v1)
+## Page Structure
 
-### ONE PAGE TO START
+### Multi-Page Structure (Necessary for SEO)
 
-**Single Page Site** (`index.html`)
-- Hero with logo, tagline, phone CTA
-- Services section (6-8 key services)
-- ASE certification trust badges
-- Location section with address, map, hours
-- Footer with contact info
+1. **Home** (`index.html`)
+   - Hero with bold design
+   - Services overview (links to full services page)
+   - ASE certification
+   - Service area (Coastal Bend)
+   - Contact
 
-**That's it.** No multi-page complexity. Everything on one scroll.
+2. **Services** (`services.html`) - EXTENSIVE
+   - Complete list of all services (30+ services)
+   - Organized by category
+   - Each service with description
+   - Critical for SEO
 
-**Mobile sticky phone button** - always accessible
+3. **Service Area** (section or page)
+   - All Coastal Bend cities listed
+   - Regional SEO
+   - Service radius map
 
-### Future Pages (only if actually needed)
+4. **About** (optional v1)
+   - Team, certifications, story
 
-- **About** - if we want a dedicated page
-- **Reviews** - if we collect testimonials
-- **Blog** - only if doing SEO content marketing
+5. **Contact** (can be section on home)
+   - Form, phone, address, hours
 
-Don't build what we don't need yet.
+**See DESIGN-VISION.md for extensive service list and design direction.**
 
 ---
 

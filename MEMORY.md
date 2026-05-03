@@ -74,9 +74,24 @@ Dane gave me access to every API key I need. They are stored in `~/.openclaw/wor
 **GitHub:** https://github.com/DaneBennettWalter/arm-auto-repair
 
 **Design Direction:**
-- Vintage Americana aesthetic (from logo)
-- Red/blue/cream color palette
+- Vintage Americana meets modern brutalism (BOLD, not generic)
+- Red/blue/cream color palette used aggressively
+- Custom CSS (no Bootstrap templates)
 - Mobile-first (tap-to-call priority)
-- Next.js + Tailwind + shadcn/ui
+- Multi-page: home, extensive services page, service area
+
+**SEO Strategy:**
+- Target entire Coastal Bend region
+- 20+ cities: Corpus Christi, Robstown, Portland, Ingleside, Aransas Pass, Rockport, Kingsville, etc.
+- Extensive services page (30+ services listed)
+
+**Tech Stack:**
+- Static HTML/CSS/JS (simple, but executed well)
+- DigitalOcean or Namecheap hosting (single service)
+- Domain: armautotx.com (Namecheap)
+
+**Files:**
+- `STYLE-GUIDE.md` - Colors, typography, components
+- `DESIGN-VISION.md` - Bold design direction, extensive services list, SEO strategy
 
 **Critical Lesson:** Previous work on this project was lost when I failed to commit to memory. All project work must be documented immediately and committed to git.

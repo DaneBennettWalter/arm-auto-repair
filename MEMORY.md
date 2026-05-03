@@ -71,6 +71,8 @@ Dane gave me access to every API key I need. They are stored in `~/.openclaw/wor
 - `/arm-auto-repair/PROJECT-INFO.md` - Business details and contact info
 - `/arm-auto-repair/STYLE-GUIDE.md` - Complete design system, colors, typography, components, tech stack
 
+**GitHub:** https://github.com/DaneBennettWalter/arm-auto-repair
+
 **Design Direction:**
 - Vintage Americana aesthetic (from logo)
 - Red/blue/cream color palette

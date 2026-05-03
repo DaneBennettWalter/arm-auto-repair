@@ -44,4 +44,5 @@
 
 **Date Started:** 2026-05-03
 **Current Phase:** Build and style guide creation
+**GitHub:** https://github.com/DaneBennettWalter/arm-auto-repair
 **Previous Work:** Lost (not committed to memory - lesson learned)

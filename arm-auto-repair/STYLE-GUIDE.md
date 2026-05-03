@@ -265,37 +265,41 @@ Focus state: Border ARM Blue, subtle shadow
 
 ## Technical Stack Recommendation
 
-**Framework:** Next.js 15+ (App Router)
-- Fast, SEO-friendly
-- Built-in image optimization
-- Easy deployment to Vercel
+**Keep It Simple - Single Service Hosting**
 
-**Styling:** Tailwind CSS
-- Rapid development
-- Consistent design system
+**Approach:** Static HTML/CSS/JS with minimal dependencies
+- No complex framework overhead
+- Fast, reliable, easy to maintain
+- No database needed for v1
+
+**Styling:** Vanilla CSS or Tailwind CDN
+- Clean, maintainable
+- No build step complexity
 - Mobile-first approach
 
-**Component Library:** shadcn/ui
-- Professional components
-- Accessible
-- Customizable
+**Forms:** Simple contact form
+- Formspree or similar (free tier)
+- Or mailto: link as fallback
+- No backend required
 
-**Forms:** React Hook Form + Zod validation
-- Clean, performant
-- Good UX
+**Hosting:** DigitalOcean App Platform or Droplet
+- Single service (we already have API key)
+- Static site hosting
+- Easy DNS setup for armautotx.com via Namecheap
+- $5-12/month
 
-**CMS (if needed):** Sanity or Contentful
-- For service updates, hours, announcements
-- Optional for v1, can add later
+**Alternative:** Namecheap shared hosting
+- Domain + hosting in one place
+- Simple cPanel
+- Upload via FTP, done
 
-**Deployment:** Vercel
-- Automatic deployments from GitHub
-- Great performance
-- Easy DNS setup for ARMAUTOTX.com
+**Analytics:** Simple Google Analytics or none for v1
+- Can add later if needed
 
-**Analytics:** Plausible or Google Analytics
-- Track phone clicks, form submissions
-- Understand customer behavior
+**Database:** NONE for v1
+- Static content only
+- Hours/services in HTML
+- Update by editing files
 
 ---
 
@@ -317,28 +321,26 @@ Focus state: Border ARM Blue, subtle shadow
 
 ## Page Structure (v1)
 
-### Essential Pages
+### ONE PAGE TO START
 
-1. **Home** (`/`)
-   - Hero
-   - Services overview
-   - Certifications/trust
-   - Location/contact
+**Single Page Site** (`index.html`)
+- Hero with logo, tagline, phone CTA
+- Services section (6-8 key services)
+- ASE certification trust badges
+- Location section with address, map, hours
+- Footer with contact info
 
-2. **Services** (`/services`)
-   - Detailed service listings
-   - Could be combined with home for v1
+**That's it.** No multi-page complexity. Everything on one scroll.
 
-3. **Contact** (`/contact`)
-   - Could be combined with home for v1
-   - Map, phone, address, hours
+**Mobile sticky phone button** - always accessible
 
-### Future Pages (v2+)
+### Future Pages (only if actually needed)
 
-- **About** - Team, history, why choose us
-- **Reviews/Testimonials** - Social proof
-- **Blog** - Auto maintenance tips (SEO)
-- **Appointment Booking** - Online scheduling integration
+- **About** - if we want a dedicated page
+- **Reviews** - if we collect testimonials
+- **Blog** - only if doing SEO content marketing
+
+Don't build what we don't need yet.
 
 ---
 
@@ -364,36 +366,33 @@ Focus state: Border ARM Blue, subtle shadow
 
 ---
 
-## Next Steps
+## Build Plan - Simple & Fast
 
-### Phase 1: Foundation
-- [ ] Set up Next.js project with Tailwind + shadcn/ui
-- [ ] Configure logo variations (full color, white, navy, icon)
-- [ ] Build design system in Tailwind config
-- [ ] Create reusable components (Button, Card, etc.)
+### Phase 1: Build (2-3 hours max)
+- [ ] Create single `index.html` file
+- [ ] Write clean HTML structure (semantic)
+- [ ] Add CSS (vanilla or Tailwind CDN)
+- [ ] Add minimal JS for mobile menu (if needed)
+- [ ] Optimize logo image (WebP format)
+- [ ] Add click-to-call tracking (simple)
+- [ ] SEO meta tags
+- [ ] Schema.org LocalBusiness markup
 
-### Phase 2: Pages
-- [ ] Home page with all sections
-- [ ] Mobile-responsive layout
-- [ ] Phone CTA with click tracking
+### Phase 2: Deploy (30 min)
+- [ ] Choose: DigitalOcean App Platform or Namecheap hosting
+- [ ] Upload files
+- [ ] Point armautotx.com DNS to hosting
+- [ ] SSL certificate (automatic or Let's Encrypt)
+- [ ] Test on mobile devices
 
-### Phase 3: Polish
-- [ ] Image optimization
-- [ ] Performance tuning
-- [ ] SEO metadata
-- [ ] Schema markup
+### Phase 3: Launch (15 min)
+- [ ] Google Business Profile setup/update
+- [ ] Submit sitemap to Google
+- [ ] Done.
 
-### Phase 4: Deploy
-- [ ] Connect ARMAUTOTX.com to Vercel
-- [ ] Configure DNS via Namecheap
-- [ ] SSL certificate (automatic via Vercel)
-- [ ] Test on real devices
+**Total time: ~4 hours to live site.**
 
-### Phase 5: Launch
-- [ ] Set up Google Business Profile
-- [ ] Submit to search engines
-- [ ] Analytics setup
-- [ ] Monitor and iterate
+No databases to migrate. No APIs to configure. No multiple services to coordinate. Just HTML, CSS, and a domain.
 
 ---
 

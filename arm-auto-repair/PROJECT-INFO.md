@@ -12,7 +12,7 @@
 - Phone: (361) 220-1629
 
 **Domain:**
-- ARMAUTOTX.com (purchased on Namecheap)
+- armautotx.com (purchased on Namecheap)
 
 **Certifications:**
 - ASE Certified for Gas and Diesel

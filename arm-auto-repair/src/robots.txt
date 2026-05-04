@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: http://142.93.68.152/sitemap.xml
+Sitemap: http://armautotx.com/sitemap.xml
+
+# Crawl-delay for polite crawlers
+Crawl-delay: 1

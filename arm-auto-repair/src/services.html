@@ -3,372 +3,256 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Auto Repair Services | ASE Certified Gas & Diesel | Corpus Christi Area</title>
-    <meta name="description" content="Complete auto repair services including engine repair, brakes, diagnostics, transmission, and more. ASE certified for gas and diesel. Serving the Coastal Bend.">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Auto Repair Services | ASE Certified | ARM Auto Repair Robstown TX</title>
+    <meta name="description" content="Complete auto repair services in Robstown TX. ASE certified for gas and diesel. Serving Corpus Christi and the Coastal Bend.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'arm-red': '#C8102E',
+                        'arm-blue': '#1E3A5F',
+                        'arm-navy': '#0D1B2A',
+                        'arm-cream': '#F4EDE4',
+                    }
+                }
+            }
+        }
+    </script>
 </head>
-<body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-brand">
-                <img src="images/logo.png" alt="ARM Auto Repair Logo" class="logo">
+<body class="font-sans antialiased">
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <a href="index.html"><img src="images/logo.png" alt="ARM Auto Repair" class="h-16"></a>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-700 hover:text-arm-red font-medium">Home</a>
+                    <a href="services.html" class="text-arm-red font-medium">Services</a>
+                    <a href="blog/" class="text-gray-700 hover:text-arm-red font-medium">Blog</a>
+                    <a href="index.html#contact" class="text-gray-700 hover:text-arm-red font-medium">Contact</a>
+                    <a href="tel:3612201629" class="bg-arm-red text-white px-6 py-2 rounded-lg hover:bg-red-700 transition font-semibold">
+                        (361) 220-1629
+                    </a>
+                </nav>
             </div>
-            <button class="nav-toggle" aria-label="Toggle navigation">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <ul class="nav-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html" class="active">Services</a></li>
-                <li><a href="index.html#service-area">Service Area</a></li>
-                <li><a href="index.html#contact">Contact</a></li>
-                <li><a href="tel:3612201629" class="nav-cta">Call Now</a></li>
-            </ul>
         </div>
-    </nav>
+    </header>
 
     <!-- Page Header -->
-    <section class="page-header">
-        <div class="container">
-            <h1>Our Services</h1>
-            <p>Complete auto repair for gas and diesel vehicles in Robstown and the Coastal Bend</p>
+    <section class="bg-gradient-to-br from-arm-blue to-arm-navy text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-5xl font-bold mb-4">Our Services</h1>
+            <p class="text-xl text-gray-200">Complete auto repair for gas and diesel vehicles</p>
         </div>
     </section>
 
     <!-- Services Content -->
-    <section class="services-content">
-        <div class="container">
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             
             <!-- Engine Services -->
-            <div id="engine" class="service-category">
-                <h2>Engine Services</h2>
-                <div class="services-list">
-                    <div class="service-item">
-                        <h3>Engine Diagnostics</h3>
-                        <p>Advanced computer diagnostics to identify engine issues quickly and accurately. We use professional-grade scan tools to read trouble codes, monitor live data, and pinpoint problems in your gas or diesel engine.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> Check engine light, unusual noises, loss of power, rough idle</p>
+            <div class="mb-16">
+                <h2 class="text-3xl font-bold mb-8 text-arm-navy border-b-4 border-arm-red inline-block pb-2">Engine Services</h2>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-2 text-arm-blue">Engine Diagnostics</h3>
+                        <p class="text-gray-600">Advanced computer diagnostics to identify engine issues quickly. Professional-grade scan tools for gas and diesel engines.</p>
                     </div>
-                    <div class="service-item">
-                        <h3>Engine Repair (Gas)</h3>
-                        <p>Expert gasoline engine repair from minor issues to major overhauls. Our ASE certified technicians handle everything from valve adjustments to complete engine repairs.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> Oil leaks, overheating, misfiring, poor fuel economy</p>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-2 text-arm-blue">Engine Repair</h3>
+                        <p class="text-gray-600">Expert engine repair from minor issues to major overhauls. Gas and diesel engines. ASE certified mechanics.</p>
                     </div>
-                    <div class="service-item">
-                        <h3>Engine Repair (Diesel)</h3>
-                        <p>Specialized diesel engine service for trucks and heavy-duty vehicles. We're ASE certified for diesel repair and understand the unique needs of diesel engines.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> Hard starting, black smoke, fuel system issues, turbo problems</p>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-2 text-arm-blue">Engine Rebuilds</h3>
+                        <p class="text-gray-600">Complete engine rebuild services to restore power and reliability. More cost-effective than replacement.</p>
                     </div>
-                    <div class="service-item">
-                        <h3>Engine Rebuilds</h3>
-                        <p>Complete engine rebuild services to restore your vehicle's power and reliability. More cost-effective than replacement, expertly executed.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> High mileage, major internal wear, excessive oil consumption</p>
-                    </div>
-                    <div class="service-item">
-                        <h3>Timing Belt/Chain Replacement</h3>
-                        <p>Critical timing system service to prevent catastrophic engine damage. We replace timing belts and chains according to manufacturer specifications.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> Mileage interval reached, ticking noise, visible belt wear</p>
-                    </div>
-                    <div class="service-item">
-                        <h3>Head Gasket Repair</h3>
-                        <p>Professional head gasket replacement and cylinder head resurfacing to fix coolant and oil leaks between engine block and cylinder head.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> White exhaust smoke, overheating, coolant in oil, loss of compression</p>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-2 text-arm-blue">Timing Belt/Chain Replacement</h3>
+                        <p class="text-gray-600">Critical timing system service to prevent catastrophic engine damage. Manufacturer specifications.</p>
                     </div>
                 </div>
             </div>
 
             <!-- Brake Services -->
-            <div id="brakes" class="service-category">
-                <h2>Brake Services</h2>
-                <div class="services-list">
-                    <div class="service-item">
-                        <h3>Brake Inspection</h3>
-                        <p>Comprehensive brake system inspection including pads, rotors, calipers, brake lines, and fluid. We check for wear and safety issues.</p>
-                        <p class="service-why"><strong>When you need this:</strong> Annual safety check, before long trips, or when brakes feel different</p>
+            <div class="mb-16">
+                <h2 class="text-3xl font-bold mb-8 text-arm-navy border-b-4 border-arm-red inline-block pb-2">Brake Services</h2>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-2 text-arm-blue">Brake Inspection</h3>
+                        <p class="text-gray-600">Comprehensive brake system inspection including pads, rotors, calipers, brake lines, and fluid.</p>
                     </div>
-                    <div class="service-item">
-                        <h3>Brake Pad Replacement</h3>
-                        <p>Quality brake pad installation using premium parts. We replace pads before they damage your rotors, saving you money.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> Squealing, grinding, longer stopping distance, brake warning light</p>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-2 text-arm-blue">Brake Pad Replacement</h3>
+                        <p class="text-gray-600">Quality brake pad installation using premium parts. Replace pads before they damage rotors.</p>
                     </div>
-                    <div class="service-item">
-                        <h3>Rotor Resurfacing/Replacement</h3>
-                        <p>Rotor machining to restore smooth braking surfaces, or replacement when rotors are beyond service limits.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> Vibration when braking, pulsating brake pedal, grooved rotors</p>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-2 text-arm-blue">Rotor Resurfacing/Replacement</h3>
+                        <p class="text-gray-600">Rotor machining to restore smooth braking surfaces, or replacement when beyond service limits.</p>
                     </div>
-                    <div class="service-item">
-                        <h3>Brake Fluid Flush</h3>
-                        <p>Complete brake fluid replacement to maintain proper brake system function and prevent corrosion.</p>
-                        <p class="service-why"><strong>When you need this:</strong> Every 2-3 years, dark/contaminated fluid, spongy brake pedal</p>
-                    </div>
-                    <div class="service-item">
-                        <h3>ABS Diagnostics & Repair</h3>
-                        <p>Anti-lock brake system diagnostics and repair. We service ABS sensors, modules, and hydraulic components.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> ABS warning light, pulsing brake pedal, loss of ABS function</p>
-                    </div>
-                    <div class="service-item">
-                        <h3>Emergency Brake Repair</h3>
-                        <p>Parking brake adjustment, cable replacement, and repair to keep your vehicle secure when parked.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> Brake doesn't hold, stuck parking brake, warning light stays on</p>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-2 text-arm-blue">ABS Diagnostics & Repair</h3>
+                        <p class="text-gray-600">Anti-lock brake system diagnostics and repair. ABS sensors, modules, and hydraulic components.</p>
                     </div>
                 </div>
             </div>
 
             <!-- Maintenance Services -->
-            <div id="maintenance" class="service-category">
-                <h2>Maintenance Services</h2>
-                <div class="services-list">
-                    <div class="service-item">
-                        <h3>Oil Change (Conventional & Synthetic)</h3>
-                        <p>Regular oil changes with quality conventional or synthetic oil. We use the right oil for your vehicle and check all fluid levels.</p>
-                        <p class="service-why"><strong>When you need this:</strong> Every 3,000-7,500 miles depending on oil type and driving conditions</p>
+            <div class="mb-16">
+                <h2 class="text-3xl font-bold mb-8 text-arm-navy border-b-4 border-arm-red inline-block pb-2">Maintenance Services</h2>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-2 text-arm-blue">Oil Changes</h3>
+                        <p class="text-gray-600">Regular oil changes with quality conventional or synthetic oil. We use the right oil for your vehicle.</p>
                     </div>
-                    <div class="service-item">
-                        <h3>Filter Replacement</h3>
-                        <p>Air filter, fuel filter, and cabin air filter replacement to keep your engine breathing clean and your cabin comfortable.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> Reduced fuel economy, weak airflow from vents, dusty cabin</p>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-2 text-arm-blue">Filter Replacement</h3>
+                        <p class="text-gray-600">Air filter, fuel filter, and cabin air filter replacement to keep your engine breathing clean.</p>
                     </div>
-                    <div class="service-item">
-                        <h3>Fluid Services</h3>
-                        <p>Complete fluid maintenance including transmission fluid, coolant, power steering, and differential fluid service.</p>
-                        <p class="service-why"><strong>When you need this:</strong> Follow manufacturer intervals or when fluids are dark/low</p>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-2 text-arm-blue">Fluid Services</h3>
+                        <p class="text-gray-600">Complete fluid maintenance including transmission fluid, coolant, power steering, and differential fluid.</p>
                     </div>
-                    <div class="service-item">
-                        <h3>Tune-Ups</h3>
-                        <p>Complete tune-up service including spark plugs, ignition system check, and engine performance optimization.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> Rough idle, hesitation, poor fuel economy, hard starting</p>
-                    </div>
-                    <div class="service-item">
-                        <h3>Belt Replacement</h3>
-                        <p>Serpentine belt and accessory belt inspection and replacement to prevent breakdowns.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> Squealing noise, visible cracks, age/mileage interval reached</p>
-                    </div>
-                    <div class="service-item">
-                        <h3>Battery Service</h3>
-                        <p>Battery testing, cleaning, and replacement. We check charging system health and prevent no-start situations.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> Slow cranking, dim lights, battery age over 3 years</p>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-2 text-arm-blue">Tune-Ups</h3>
+                        <p class="text-gray-600">Complete tune-up service including spark plugs, ignition system check, and performance optimization.</p>
                     </div>
                 </div>
             </div>
 
             <!-- Electrical Services -->
-            <div id="electrical" class="service-category">
-                <h2>Electrical Services</h2>
-                <div class="services-list">
-                    <div class="service-item">
-                        <h3>Electrical Diagnostics</h3>
-                        <p>Advanced electrical system diagnostics using professional tools to trace and repair electrical issues.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> Electrical accessories not working, intermittent issues, parasitic battery drain</p>
+            <div class="mb-16">
+                <h2 class="text-3xl font-bold mb-8 text-arm-navy border-b-4 border-arm-red inline-block pb-2">Electrical Services</h2>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-2 text-arm-blue">Electrical Diagnostics</h3>
+                        <p class="text-gray-600">Advanced electrical system diagnostics using professional tools to trace and repair electrical issues.</p>
                     </div>
-                    <div class="service-item">
-                        <h3>Alternator Replacement</h3>
-                        <p>Alternator testing and replacement to keep your battery charged and electrical system powered.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> Battery warning light, dimming lights, dead battery, whining noise</p>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-2 text-arm-blue">Alternator Replacement</h3>
+                        <p class="text-gray-600">Alternator testing and replacement to keep your battery charged and electrical system powered.</p>
                     </div>
-                    <div class="service-item">
-                        <h3>Starter Replacement</h3>
-                        <p>Starter motor and solenoid service to ensure reliable starting every time.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> Clicking when starting, no crank, intermittent starting issues</p>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-2 text-arm-blue">Starter Replacement</h3>
+                        <p class="text-gray-600">Starter motor and solenoid service to ensure reliable starting every time.</p>
                     </div>
-                    <div class="service-item">
-                        <h3>Wiring Repair</h3>
-                        <p>Electrical wiring diagnostics and repair for damaged, corroded, or faulty wiring harnesses.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> Blown fuses, melted wires, electrical shorts, corrosion</p>
-                    </div>
-                    <div class="service-item">
-                        <h3>Lighting Repair</h3>
-                        <p>Headlight, taillight, turn signal, and interior lighting diagnosis and repair.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> Lights not working, dim lights, flickering, bulb replacement needed</p>
-                    </div>
-                    <div class="service-item">
-                        <h3>Computer Diagnostics</h3>
-                        <p>Electronic control module diagnostics and programming for modern vehicle computer systems.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> Multiple warning lights, drivability issues, communication errors</p>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-2 text-arm-blue">Computer Diagnostics</h3>
+                        <p class="text-gray-600">Electronic control module diagnostics and programming for modern vehicle computer systems.</p>
                     </div>
                 </div>
             </div>
 
             <!-- Transmission Services -->
-            <div id="transmission" class="service-category">
-                <h2>Transmission Services</h2>
-                <div class="services-list">
-                    <div class="service-item">
-                        <h3>Transmission Diagnostics</h3>
-                        <p>Comprehensive transmission testing to identify shifting issues, slipping, and internal problems.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> Slipping gears, delayed shifting, transmission warning light, unusual noises</p>
+            <div class="mb-16">
+                <h2 class="text-3xl font-bold mb-8 text-arm-navy border-b-4 border-arm-red inline-block pb-2">Transmission Services</h2>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-2 text-arm-blue">Transmission Diagnostics</h3>
+                        <p class="text-gray-600">Comprehensive transmission testing to identify shifting issues, slipping, and internal problems.</p>
                     </div>
-                    <div class="service-item">
-                        <h3>Transmission Repair</h3>
-                        <p>Expert transmission repair for automatic and manual transmissions, from minor fixes to major repairs.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> Hard shifting, grinding, won't go into gear, fluid leaks</p>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-2 text-arm-blue">Transmission Repair</h3>
+                        <p class="text-gray-600">Expert transmission repair for automatic and manual transmissions, from minor fixes to major repairs.</p>
                     </div>
-                    <div class="service-item">
-                        <h3>Transmission Rebuild</h3>
-                        <p>Complete transmission rebuild service to restore your transmission to like-new condition.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> Major transmission failure, slipping, no drive, internal damage</p>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-2 text-arm-blue">Transmission Rebuild</h3>
+                        <p class="text-gray-600">Complete transmission rebuild service to restore your transmission to like-new condition.</p>
                     </div>
-                    <div class="service-item">
-                        <h3>Clutch Replacement</h3>
-                        <p>Manual transmission clutch, pressure plate, and flywheel service for smooth shifting and engagement.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> Slipping clutch, hard pedal, grinding when shifting, burning smell</p>
-                    </div>
-                    <div class="service-item">
-                        <h3>Differential Service</h3>
-                        <p>Differential fluid service and repair for rear-wheel and four-wheel drive vehicles.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> Whining noise, clunking, vibration, fluid leaks</p>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-2 text-arm-blue">Clutch Replacement</h3>
+                        <p class="text-gray-600">Manual transmission clutch, pressure plate, and flywheel service for smooth shifting.</p>
                     </div>
                 </div>
             </div>
 
-            <!-- Suspension & Steering -->
-            <div id="suspension" class="service-category">
-                <h2>Suspension & Steering Services</h2>
-                <div class="services-list">
-                    <div class="service-item">
-                        <h3>Wheel Alignment</h3>
-                        <p>Precision wheel alignment to prevent tire wear and ensure straight tracking and proper handling.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> Vehicle pulls to one side, uneven tire wear, steering wheel off-center</p>
+            <!-- Heating & Cooling Services -->
+            <div class="mb-16">
+                <h2 class="text-3xl font-bold mb-8 text-arm-navy border-b-4 border-arm-red inline-block pb-2">Heating & Cooling</h2>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-2 text-arm-blue">A/C Diagnostics & Repair</h3>
+                        <p class="text-gray-600">Complete air conditioning system diagnostics and repair to keep you cool in South Texas heat.</p>
                     </div>
-                    <div class="service-item">
-                        <h3>Shocks & Struts</h3>
-                        <p>Shock absorber and strut replacement to restore ride quality and handling.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> Bouncy ride, nose dives when braking, uneven tire wear, fluid leaks</p>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-2 text-arm-blue">A/C Recharge</h3>
+                        <p class="text-gray-600">Refrigerant recharge service to restore cooling performance when your A/C is low.</p>
                     </div>
-                    <div class="service-item">
-                        <h3>Ball Joints</h3>
-                        <p>Ball joint inspection and replacement to maintain safe steering and suspension operation.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> Clunking noise, wandering steering, uneven tire wear</p>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-2 text-arm-blue">Radiator Repair</h3>
+                        <p class="text-gray-600">Radiator replacement and cooling system repair to prevent overheating.</p>
                     </div>
-                    <div class="service-item">
-                        <h3>Tie Rods</h3>
-                        <p>Tie rod and tie rod end replacement for precise steering control.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> Loose steering, tire wear, alignment won't hold</p>
-                    </div>
-                    <div class="service-item">
-                        <h3>Power Steering Repair</h3>
-                        <p>Power steering pump, rack, and hose service for smooth, easy steering.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> Hard steering, whining noise, fluid leaks, groaning when turning</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- HVAC Services -->
-            <div id="hvac" class="service-category">
-                <h2>Heating & Cooling Services</h2>
-                <div class="services-list">
-                    <div class="service-item">
-                        <h3>A/C Diagnostics & Repair</h3>
-                        <p>Complete air conditioning system diagnostics and repair to keep you cool in South Texas heat.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> No cold air, weak airflow, strange smells, A/C cycles on and off</p>
-                    </div>
-                    <div class="service-item">
-                        <h3>A/C Recharge</h3>
-                        <p>Refrigerant recharge service to restore cooling performance when your A/C is low on refrigerant.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> A/C blows warm, reduced cooling, system takes long to cool</p>
-                    </div>
-                    <div class="service-item">
-                        <h3>Radiator Repair</h3>
-                        <p>Radiator replacement and cooling system repair to prevent overheating.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> Coolant leaks, overheating, low coolant, visible damage</p>
-                    </div>
-                    <div class="service-item">
-                        <h3>Cooling System Flush</h3>
-                        <p>Complete coolant flush and fill to maintain proper engine temperature and prevent corrosion.</p>
-                        <p class="service-why"><strong>When you need this:</strong> Every 30,000-50,000 miles or when coolant is dirty/rusty</p>
-                    </div>
-                    <div class="service-item">
-                        <h3>Heater Repair</h3>
-                        <p>Heater core and climate control repair for those cold Texas mornings.</p>
-                        <p class="service-why"><strong>Signs you need this:</strong> No heat, coolant smell, foggy windows, coolant on passenger floor</p>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-2 text-arm-blue">Heater Repair</h3>
+                        <p class="text-gray-600">Heater core and climate control repair for those cold Texas mornings.</p>
                     </div>
                 </div>
             </div>
 
             <!-- Specialty Services -->
-            <div id="specialty" class="service-category">
-                <h2>Specialty Services</h2>
-                <div class="services-list">
-                    <div class="service-item">
-                        <h3>Diesel Repair</h3>
-                        <p>Specialized diesel engine and fuel system service. We're ASE certified for diesel and understand diesel-specific needs including DEF systems, DPF, and turbochargers.</p>
-                        <p class="service-why"><strong>Diesel expertise for:</strong> Trucks, heavy-duty vehicles, diesel cars, fleet vehicles</p>
+            <div class="mb-16">
+                <h2 class="text-3xl font-bold mb-8 text-arm-navy border-b-4 border-arm-red inline-block pb-2">Specialty Services</h2>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-2 text-arm-blue">Diesel Repair</h3>
+                        <p class="text-gray-600">Specialized diesel engine and fuel system service. ASE certified for diesel trucks and heavy-duty vehicles.</p>
                     </div>
-                    <div class="service-item">
-                        <h3>Check Engine Light Diagnostics</h3>
-                        <p>Professional check engine light diagnosis to determine the real problem—not just clear the code.</p>
-                        <p class="service-why"><strong>We diagnose:</strong> Emissions issues, sensor problems, engine faults, transmission codes</p>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-2 text-arm-blue">Check Engine Light Diagnostics</h3>
+                        <p class="text-gray-600">Professional check engine light diagnosis to determine the real problem—not just clear the code.</p>
                     </div>
-                    <div class="service-item">
-                        <h3>Pre-Purchase Inspections</h3>
-                        <p>Comprehensive vehicle inspection before you buy. We'll check for hidden problems and give you an honest assessment.</p>
-                        <p class="service-why"><strong>What we check:</strong> Engine, transmission, brakes, suspension, frame, electrical, leaks</p>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-2 text-arm-blue">Pre-Purchase Inspections</h3>
+                        <p class="text-gray-600">Comprehensive vehicle inspection before you buy. We'll check for hidden problems and give honest assessment.</p>
                     </div>
-                    <div class="service-item">
-                        <h3>Fleet Services</h3>
-                        <p>Commercial fleet maintenance and repair. Keep your business vehicles on the road with scheduled maintenance and priority service.</p>
-                        <p class="service-why"><strong>Fleet benefits:</strong> Scheduled maintenance, priority service, detailed records, fleet discounts</p>
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold mb-2 text-arm-blue">Fleet Services</h3>
+                        <p class="text-gray-600">Commercial fleet maintenance and repair. Keep your business vehicles on the road with priority service.</p>
                     </div>
                 </div>
             </div>
 
-        </div>
-    </section>
+            <!-- CTA -->
+            <div class="bg-arm-red text-white py-12 px-8 rounded-2xl text-center">
+                <h2 class="text-3xl font-bold mb-4">Ready to Get Started?</h2>
+                <p class="text-xl mb-6">Call us today or stop by our shop in Robstown</p>
+                <a href="tel:3612201629" class="inline-block bg-white text-arm-red px-10 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition shadow-lg">
+                    (361) 220-1629
+                </a>
+            </div>
 
-    <!-- CTA Section -->
-    <section class="cta-section">
-        <div class="container">
-            <h2>Ready to Get Started?</h2>
-            <p>Call us today or stop by our shop in Robstown</p>
-            <a href="tel:3612201629" class="btn btn-primary btn-large">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                </svg>
-                (361) 220-1629
-            </a>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <img src="images/logo.png" alt="ARM Auto Repair" class="footer-logo">
-                    <p>ASE Certified Auto Repair<br>Serving the Coastal Bend</p>
-                </div>
-                <div class="footer-links">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="index.html#service-area">Service Area</a></li>
-                        <li><a href="index.html#contact">Contact</a></li>
+    <footer class="bg-arm-navy text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-arm-red transition">Home</a></li>
+                        <li><a href="services.html" class="hover:text-arm-red transition">Services</a></li>
+                        <li><a href="blog/" class="hover:text-arm-red transition">Blog</a></li>
+                        <li><a href="index.html#contact" class="hover:text-arm-red transition">Contact</a></li>
                     </ul>
                 </div>
-                <div class="footer-contact">
-                    <h4>Contact</h4>
-                    <p>601 E Main St<br>Robstown, TX 78380</p>
-                    <p><a href="tel:3612201629">(361) 220-1629</a></p>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact</h3>
+                    <p class="mb-2">601 E Main St<br>Robstown, TX 78380</p>
+                    <p class="mb-2"><a href="tel:3612201629" class="hover:text-arm-red transition">(361) 220-1629</a></p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Service Area</h3>
+                    <p class="text-sm text-gray-300">Corpus Christi, Robstown, Portland, Ingleside, Aransas Pass, Rockport, and the entire Coastal Bend</p>
                 </div>
             </div>
-            <div class="footer-bottom">
+            <div class="text-center border-t border-gray-700 pt-8">
                 <p>&copy; 2026 ARM Auto Repair and Mechanical. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
-    <!-- Mobile Sticky Call Button -->
-    <a href="tel:3612201629" class="mobile-call-btn" aria-label="Call ARM Auto Repair">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-        </svg>
-        Call Now
-    </a>
-
-    <script src="js/script.js"></script>
 </body>
 </html>

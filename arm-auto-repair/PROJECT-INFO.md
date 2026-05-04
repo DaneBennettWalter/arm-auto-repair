@@ -20,6 +20,18 @@
 **Property:**
 - Own the warehouse at the Main St location
 
+## Media Assets
+
+**Aerial Footage:**
+- YouTube: https://www.youtube.com/watch?v=t7uc4SevP10
+- Can extract stills or embed video
+- Use for hero background or about section
+
+**Photography Strategy:**
+- Use aerial footage stills where appropriate
+- Placeholder images for other sections (temporary)
+- Replace with real shop photos as they become available
+
 ## Brand Identity
 
 **Logo Style:**

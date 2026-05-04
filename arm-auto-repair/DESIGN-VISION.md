@@ -84,16 +84,22 @@
 
 ## Photography Strategy
 
-**We need real photos:**
-- Shop exterior (601 E Main St)
+**Available Now:**
+- **Aerial footage:** https://www.youtube.com/watch?v=t7uc4SevP10
+  - Extract stills for hero background
+  - Could embed video in about section
+  - Shows actual location (Robstown)
+
+**Still Needed:**
 - Shop interior (clean, organized bays)
 - Work in progress (close-ups of hands, tools, parts)
 - Before/after if available
 - Team photo (if comfortable)
 
-**If we don't have photos yet:**
-- Phase 1: Launch with minimal stock photos (very carefully chosen)
-- Phase 2: Replace with real photography ASAP
+**Phase 1 Launch:**
+- Use aerial footage stills where appropriate
+- Carefully chosen placeholder/stock for other sections (minimal)
+- Phase 2: Replace placeholders with real photography
 - NEVER use cheesy stock "mechanic holding wrench smiling at camera"
 
 **Photo treatment:**

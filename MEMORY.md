@@ -4,6 +4,22 @@ This file is your curated long-term memory. Update it with significant events, d
 
 ## Critical Operating Rules (Non-Negotiable)
 
+### Context Management - SAVE AT 80%
+**Date: 2026-05-04**
+**Severity: Critical for continuity**
+
+When context reaches 80% capacity, I lose track of current work during resets.
+
+**Rules:**
+1. **Monitor context usage** - Check session_status output ("Context: Xk/200k (%)")
+2. **At 80% or above, IMMEDIATELY:**
+   - Save progress to `memory/YYYY-MM-DD.md`
+   - Document what we're working on RIGHT NOW
+   - List blocked items and next steps
+   - Commit critical files to git
+3. **Every session start:** Read today's memory file FIRST to catch up
+4. **Don't make Dane repeat himself** - check memory before asking questions we've already covered
+
 ### API Keys - NEVER FORGET AGAIN
 **Date: 2026-04-30**
 **Severity: Terminal violation if repeated**
@@ -132,3 +148,34 @@ Dane gave me access to every API key I need. They are stored in `~/.openclaw/wor
 **Lesson:** ALWAYS commit and push after major changes. Version control saved this project.
 
 **Files:** See `/arm-auto-repair/RESTORATION-COMPLETE.md`
+
+---
+
+### Hotel Brendle - Property & Loan Details
+**Property:** 601 E Ave A, Robstown, TX 78380  
+**Status:** Operating, cash-flowing  
+**Rooms:** 67 total (30 renovated/online, 37 remaining to renovate)  
+**Current Performance:**
+- Gross revenue: $16,800/month
+- Operating expenses: $7,647/month
+- Net income: $9,153/month (~$110K annual NOI)
+- Occupancy: ~26 of 30 rooms (87%)
+- Rent: $640/mo or $600/mo per room
+
+**Loan Purpose:** Cash-out refinance to fund renovation of remaining 37 rooms
+
+**Financial Documents:**
+- Rent roll: On Google Drive (filename contains "601 E Ave A" or "601")
+- Example loan readiness spreadsheet: Complex 30-tab document (template to replicate)
+
+**Google Drive Access:**
+- Credentials in `.env` (GOOGLE_DRIVE_REFRESH_TOKEN, GOOGLE_OAUTH_CLIENT_ID, GOOGLE_OAUTH_CLIENT_SECRET)
+- Scopes: drive, spreadsheets, documents
+- Email: dwalter@cbbtx.org
+
+**Key Context:**
+- Historic building, community anchor
+- Robstown is birthplace of Texas Hold'em
+- Part of larger "Build to Own" portfolio strategy
+- Self-funded, no private equity
+- Long-term hold, community-focused

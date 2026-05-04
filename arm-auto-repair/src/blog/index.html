@@ -8,168 +8,245 @@
     <meta name="keywords" content="auto repair blog, car maintenance tips, auto repair advice Corpus Christi, automotive blog">
     <link rel="canonical" href="http://142.93.68.152/blog/">
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>/* Minimal styles for blog posts - inline this into each post */ .bg-red { background-color: #C8102E; } .bg-blue { background-color: #1E3A5F; } .bg-dark { background-color: #0D1B2A; } .text-white { color: white; } .container { max-width: 1200px; margin: 0 auto; padding: 0 1rem; } .logo { height: 60px; } .cta-button { background-color: #C8102E; color: white; padding: 0.5rem 1rem; border-radius: 0.375rem; text-decoration: none; display: inline-block; } .lead { font-size: 1.25rem; font-weight: 500; margin-bottom: 1.5rem; color: #4B5563; } .cta-box { background-color: #1E3A5F; color: white; padding: 2rem; margin: 2rem 0; border-radius: 0.5rem; } .blog-content h2 { font-size: 1.875rem; font-weight: 700; margin-top: 2rem; margin-bottom: 1rem; color: #0D1B2A; } .blog-content h3 { font-size: 1.5rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #1E3A5F; } .blog-content p { margin-bottom: 1rem; line-height: 1.75; } .blog-content ul, .blog-content ol { margin-left: 1.5rem; margin-bottom: 1rem; } .blog-content li { margin-bottom: 0.5rem; line-height: 1.75; } header nav { display: flex; gap: 1.5rem; align-items: center; } header nav a { color: white; text-decoration: none; } header { display: flex; justify-content: space-between; align-items: center; padding: 1rem 0; } footer { text-align: center; padding: 2rem 0; } </style>
     <script>
         tailwind.config = {
             theme: {
-                extend: {colors: {"arm-red": "#C8102E", "arm-blue": "#1E3A5F", "arm-navy": "#0D1B2A", "arm-cream": "#F4EDE4"}}
+                extend: {
+                    colors: {
+                        'arm-red': '#C8102E',
+                        'arm-blue': '#1E3A5F',
+                        'arm-navy': '#0D1B2A',
+                        'arm-cream': '#F4EDE4',
+                    }
+                }
             }
         }
     </script>
-    <style>/* Minimal styles for blog posts - inline this into each post */ .bg-red { background-color: #C8102E; } .bg-blue { background-color: #1E3A5F; } .bg-dark { background-color: #0D1B2A; } .text-white { color: white; } .container { max-width: 1200px; margin: 0 auto; padding: 0 1rem; } .logo { height: 60px; } .cta-button { background-color: #C8102E; color: white; padding: 0.5rem 1rem; border-radius: 0.375rem; text-decoration: none; display: inline-block; } .lead { font-size: 1.25rem; font-weight: 500; margin-bottom: 1.5rem; color: #4B5563; } .cta-box { background-color: #1E3A5F; color: white; padding: 2rem; margin: 2rem 0; border-radius: 0.5rem; } .blog-content h2 { font-size: 1.875rem; font-weight: 700; margin-top: 2rem; margin-bottom: 1rem; color: #0D1B2A; } .blog-content h3 { font-size: 1.5rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #1E3A5F; } .blog-content p { margin-bottom: 1rem; line-height: 1.75; } .blog-content ul, .blog-content ol { margin-left: 1.5rem; margin-bottom: 1rem; } .blog-content li { margin-bottom: 0.5rem; line-height: 1.75; } header nav { display: flex; gap: 1.5rem; align-items: center; } header nav a { color: white; text-decoration: none; } header { display: flex; justify-content: space-between; align-items: center; padding: 1rem 0; } footer { text-align: center; padding: 2rem 0; } </style>
 </head>
-<body>
-    <header class="bg-red text-white py-4">
-        <div class="container">
-            <div class="logo-section">
-                <a href="../index.html"><img src="../images/logo.png" alt="ARM Auto Repair" class="logo"></a>
+<body class="font-sans antialiased">
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <a href="../index.html"><img src="../images/logo.png" alt="ARM Auto Repair" class="h-16"></a>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="../index.html" class="text-gray-700 hover:text-arm-red font-medium">Home</a>
+                    <a href="../services.html" class="text-gray-700 hover:text-arm-red font-medium">Services</a>
+                    <a href="index.html" class="text-arm-red font-medium">Blog</a>
+                    <a href="../index.html#contact" class="text-gray-700 hover:text-arm-red font-medium">Contact</a>
+                    <a href="tel:3612201629" class="bg-arm-red text-white px-6 py-2 rounded-lg hover:bg-red-700 transition font-semibold">
+                        (361) 220-1629
+                    </a>
+                </nav>
             </div>
-            <nav>
-                <a href="../index.html">Home</a>
-                <a href="../services.html">Services</a>
-                <a href="index.html" class="active">Blog</a>
-                <a href="../index.html#contact">Contact</a>
-                <a href="tel:3612201629" class="cta-button">Call Now: (361) 220-1629</a>
-            </nav>
         </div>
     </header>
 
-    <main class="container py-8">
-        <header class="mb-8">
-            <h1 class="text-4xl font-bold mb-4">Auto Repair Blog</h1>
-            <p class="text-xl">Expert advice, tips, and guides from ARM Auto Repair's ASE certified mechanics serving Corpus Christi and the Coastal Bend.</p>
-        </header>
+    <!-- Page Header -->
+    <section class="bg-gradient-to-br from-arm-blue to-arm-navy text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-5xl font-bold mb-4">Auto Repair Blog</h1>
+            <p class="text-xl text-gray-200">Expert advice, tips, and guides from ARM Auto Repair's ASE certified mechanics serving Corpus Christi and the Coastal Bend.</p>
+        </div>
+    </section>
 
-        <div class="blog-grid">
-            <article class="blog-card mb-6 p-6 border">
-                <h2 class="text-2xl font-bold mb-2"><a href="car-wont-start-corpus-christi.html">Car Won't Start? Common Causes and Solutions</a></h2>
-                <p class="text-gray-600 mb-2">April 5, 2026</p>
-                <p>Dead battery, bad starter, fuel pump failure? We diagnose and fix no-start problems fast.</p>
-            </article>
+    <!-- Blog Posts -->
+    <main class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <article class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500 mb-2">April 5, 2026</p>
+                        <h2 class="text-2xl font-bold mb-3 text-arm-navy hover:text-arm-red transition"><a href="car-wont-start-corpus-christi.html">Car Won't Start? Common Causes and Solutions</a></h2>
+                        <p class="text-gray-600">Dead battery, bad starter, fuel pump failure? We diagnose and fix no-start problems fast.</p>
+                    </div>
+                </article>
 
-            <article class="blog-card mb-6 p-6 border">
-                <h2 class="text-2xl font-bold mb-2"><a href="spring-car-maintenance-checklist.html">Spring Car Maintenance Checklist</a></h2>
-                <p class="text-gray-600 mb-2">March 20, 2026</p>
-                <p>Get your vehicle ready for spring driving with this complete maintenance checklist.</p>
-            </article>
+                <article class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500 mb-2">March 20, 2026</p>
+                        <h2 class="text-2xl font-bold mb-3 text-arm-navy hover:text-arm-red transition"><a href="spring-car-maintenance-checklist.html">Spring Car Maintenance Checklist</a></h2>
+                        <p class="text-gray-600">Get your vehicle ready for spring driving with this complete maintenance checklist.</p>
+                    </div>
+                </article>
 
-            <article class="blog-card mb-6 p-6 border">
-                <h2 class="text-2xl font-bold mb-2"><a href="engine-diagnostic-kingsville.html">Engine Diagnostic Service in Kingsville</a></h2>
-                <p class="text-gray-600 mb-2">December 8, 2025</p>
-                <p>Professional engine diagnostics find the real problem. Check engine light, performance issues, and more.</p>
-            </article>
+                <article class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500 mb-2">December 8, 2025</p>
+                        <h2 class="text-2xl font-bold mb-3 text-arm-navy hover:text-arm-red transition"><a href="engine-diagnostic-kingsville.html">Engine Diagnostic Service in Kingsville</a></h2>
+                        <p class="text-gray-600">Professional engine diagnostics find the real problem. Check engine light, performance issues, and more.</p>
+                    </div>
+                </article>
 
-            <article class="blog-card mb-6 p-6 border">
-                <h2 class="text-2xl font-bold mb-2"><a href="brake-pads-replacement.html">Brake Pads Replacement Service</a></h2>
-                <p class="text-gray-600 mb-2">November 15, 2025</p>
-                <p>Squealing brakes? Time for new brake pads. Expert brake service in Corpus Christi and Robstown.</p>
-            </article>
+                <article class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500 mb-2">November 15, 2025</p>
+                        <h2 class="text-2xl font-bold mb-3 text-arm-navy hover:text-arm-red transition"><a href="brake-pads-replacement.html">Brake Pads Replacement Service</a></h2>
+                        <p class="text-gray-600">Squealing brakes? Time for new brake pads. Expert brake service in Corpus Christi and Robstown.</p>
+                    </div>
+                </article>
 
-            <article class="blog-card mb-6 p-6 border">
-                <h2 class="text-2xl font-bold mb-2"><a href="fuel-pump-issues.html">Fuel Pump Problems and Solutions</a></h2>
-                <p class="text-gray-600 mb-2">October 28, 2025</p>
-                <p>Car stalling or won't start? Could be fuel pump failure. We diagnose and repair fuel system problems.</p>
-            </article>
+                <article class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500 mb-2">October 28, 2025</p>
+                        <h2 class="text-2xl font-bold mb-3 text-arm-navy hover:text-arm-red transition"><a href="fuel-pump-issues.html">Fuel Pump Problems and Solutions</a></h2>
+                        <p class="text-gray-600">Car stalling or won't start? Could be fuel pump failure. We diagnose and repair fuel system problems.</p>
+                    </div>
+                </article>
 
-            <article class="blog-card mb-6 p-6 border">
-                <h2 class="text-2xl font-bold mb-2"><a href="water-pump-replacement.html">Water Pump Replacement</a></h2>
-                <p class="text-gray-600 mb-2">October 12, 2025</p>
-                <p>Coolant leak or overheating? Your water pump might be failing. Professional cooling system repair.</p>
-            </article>
+                <article class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500 mb-2">October 12, 2025</p>
+                        <h2 class="text-2xl font-bold mb-3 text-arm-navy hover:text-arm-red transition"><a href="water-pump-replacement.html">Water Pump Replacement</a></h2>
+                        <p class="text-gray-600">Coolant leak or overheating? Your water pump might be failing. Professional cooling system repair.</p>
+                    </div>
+                </article>
 
-            <article class="blog-card mb-6 p-6 border">
-                <h2 class="text-2xl font-bold mb-2"><a href="timing-belt-replacement.html">Timing Belt Replacement Service</a></h2>
-                <p class="text-gray-600 mb-2">September 25, 2025</p>
-                <p>Critical engine maintenance. Don't wait until it breaks - timing belt failure destroys engines.</p>
-            </article>
+                <article class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500 mb-2">September 25, 2025</p>
+                        <h2 class="text-2xl font-bold mb-3 text-arm-navy hover:text-arm-red transition"><a href="timing-belt-replacement.html">Timing Belt Replacement Service</a></h2>
+                        <p class="text-gray-600">Critical engine maintenance. Don't wait until it breaks - timing belt failure destroys engines.</p>
+                    </div>
+                </article>
 
-            <article class="blog-card mb-6 p-6 border">
-                <h2 class="text-2xl font-bold mb-2"><a href="exhaust-system-repair.html">Exhaust System Repair</a></h2>
-                <p class="text-gray-600 mb-2">September 10, 2025</p>
-                <p>Loud exhaust, rattling, or exhaust smell? Professional muffler and exhaust system repair.</p>
-            </article>
+                <article class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500 mb-2">September 10, 2025</p>
+                        <h2 class="text-2xl font-bold mb-3 text-arm-navy hover:text-arm-red transition"><a href="exhaust-system-repair.html">Exhaust System Repair</a></h2>
+                        <p class="text-gray-600">Loud exhaust, rattling, or exhaust smell? Professional muffler and exhaust system repair.</p>
+                    </div>
+                </article>
 
-            <article class="blog-card mb-6 p-6 border">
-                <h2 class="text-2xl font-bold mb-2"><a href="suspension-repair-portland.html">Suspension Repair in Portland TX</a></h2>
-                <p class="text-gray-600 mb-2">August 18, 2025</p>
-                <p>Rough ride? Bouncy or unstable handling? Time for suspension service. Shocks, struts, and more.</p>
-            </article>
+                <article class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500 mb-2">August 18, 2025</p>
+                        <h2 class="text-2xl font-bold mb-3 text-arm-navy hover:text-arm-red transition"><a href="suspension-repair-portland.html">Suspension Repair in Portland TX</a></h2>
+                        <p class="text-gray-600">Rough ride? Bouncy or unstable handling? Time for suspension service. Shocks, struts, and more.</p>
+                    </div>
+                </article>
 
-            <article class="blog-card mb-6 p-6 border">
-                <h2 class="text-2xl font-bold mb-2"><a href="radiator-repair-robstown.html">Radiator Repair in Robstown</a></h2>
-                <p class="text-gray-600 mb-2">August 5, 2025</p>
-                <p>Overheating or coolant leak? Radiator repair and cooling system service in Robstown TX.</p>
-            </article>
+                <article class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500 mb-2">August 5, 2025</p>
+                        <h2 class="text-2xl font-bold mb-3 text-arm-navy hover:text-arm-red transition"><a href="radiator-repair-robstown.html">Radiator Repair in Robstown</a></h2>
+                        <p class="text-gray-600">Overheating or coolant leak? Radiator repair and cooling system service in Robstown TX.</p>
+                    </div>
+                </article>
 
-            <article class="blog-card mb-6 p-6 border">
-                <h2 class="text-2xl font-bold mb-2"><a href="alternator-repair-corpus-christi.html">Alternator Repair in Corpus Christi</a></h2>
-                <p class="text-gray-600 mb-2">July 20, 2025</p>
-                <p>Battery light on? Electrical problems? Your alternator might be failing. Expert charging system repair.</p>
-            </article>
+                <article class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500 mb-2">July 20, 2025</p>
+                        <h2 class="text-2xl font-bold mb-3 text-arm-navy hover:text-arm-red transition"><a href="alternator-repair-corpus-christi.html">Alternator Repair in Corpus Christi</a></h2>
+                        <p class="text-gray-600">Battery light on? Electrical problems? Your alternator might be failing. Expert charging system repair.</p>
+                    </div>
+                </article>
 
-            <article class="blog-card mb-6 p-6 border">
-                <h2 class="text-2xl font-bold mb-2"><a href="battery-replacement-south-texas.html">Battery Replacement in South Texas Heat</a></h2>
-                <p class="text-gray-600 mb-2">July 8, 2025</p>
-                <p>Texas heat kills batteries fast. Free battery testing and professional battery replacement.</p>
-            </article>
+                <article class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500 mb-2">July 8, 2025</p>
+                        <h2 class="text-2xl font-bold mb-3 text-arm-navy hover:text-arm-red transition"><a href="battery-replacement-south-texas.html">Battery Replacement in South Texas Heat</a></h2>
+                        <p class="text-gray-600">Texas heat kills batteries fast. Free battery testing and professional battery replacement.</p>
+                    </div>
+                </article>
 
-            <article class="blog-card mb-6 p-6 border">
-                <h2 class="text-2xl font-bold mb-2"><a href="wheel-alignment-signs.html">Signs You Need Wheel Alignment</a></h2>
-                <p class="text-gray-600 mb-2">June 12, 2025</p>
-                <p>Pulling to one side? Crooked steering wheel? Uneven tire wear? You need alignment service.</p>
-            </article>
+                <article class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500 mb-2">June 12, 2025</p>
+                        <h2 class="text-2xl font-bold mb-3 text-arm-navy hover:text-arm-red transition"><a href="wheel-alignment-signs.html">Signs You Need Wheel Alignment</a></h2>
+                        <p class="text-gray-600">Pulling to one side? Crooked steering wheel? Uneven tire wear? You need alignment service.</p>
+                    </div>
+                </article>
 
-            <article class="blog-card mb-6 p-6 border">
-                <h2 class="text-2xl font-bold mb-2"><a href="tire-rotation-importance.html">Why Tire Rotation Matters</a></h2>
-                <p class="text-gray-600 mb-2">June 5, 2025</p>
-                <p>Simple maintenance that extends tire life by thousands of miles. Quick, affordable service.</p>
-            </article>
+                <article class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500 mb-2">June 5, 2025</p>
+                        <h2 class="text-2xl font-bold mb-3 text-arm-navy hover:text-arm-red transition"><a href="tire-rotation-importance.html">Why Tire Rotation Matters</a></h2>
+                        <p class="text-gray-600">Simple maintenance that extends tire life by thousands of miles. Quick, affordable service.</p>
+                    </div>
+                </article>
 
-            <article class="blog-card mb-6 p-6 border">
-                <h2 class="text-2xl font-bold mb-2"><a href="diesel-truck-repair-robstown.html">Diesel Truck Repair in Robstown</a></h2>
-                <p class="text-gray-600 mb-2">May 22, 2025</p>
-                <p>ASE certified diesel mechanics. Expert service for Ford, Chevy, Dodge, Ram diesel trucks.</p>
-            </article>
+                <article class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500 mb-2">May 22, 2025</p>
+                        <h2 class="text-2xl font-bold mb-3 text-arm-navy hover:text-arm-red transition"><a href="diesel-truck-repair-robstown.html">Diesel Truck Repair in Robstown</a></h2>
+                        <p class="text-gray-600">ASE certified diesel mechanics. Expert service for Ford, Chevy, Dodge, Ram diesel trucks.</p>
+                    </div>
+                </article>
 
-            <article class="blog-card mb-6 p-6 border">
-                <h2 class="text-2xl font-bold mb-2"><a href="ac-repair-corpus-christi-summer.html">AC Repair for Corpus Christi Summer</a></h2>
-                <p class="text-gray-600 mb-2">May 15, 2025</p>
-                <p>Don't suffer in the heat. Professional AC repair, recharge, and service. Stay cool this summer.</p>
-            </article>
+                <article class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500 mb-2">May 15, 2025</p>
+                        <h2 class="text-2xl font-bold mb-3 text-arm-navy hover:text-arm-red transition"><a href="ac-repair-corpus-christi-summer.html">AC Repair for Corpus Christi Summer</a></h2>
+                        <p class="text-gray-600">Don't suffer in the heat. Professional AC repair, recharge, and service. Stay cool this summer.</p>
+                    </div>
+                </article>
 
-            <article class="blog-card mb-6 p-6 border">
-                <h2 class="text-2xl font-bold mb-2"><a href="check-engine-light-diagnosis.html">Check Engine Light Diagnosis</a></h2>
-                <p class="text-gray-600 mb-2">April 18, 2025</p>
-                <p>Check engine light on? Professional diagnostics find the real problem, not just codes.</p>
-            </article>
+                <article class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500 mb-2">April 18, 2025</p>
+                        <h2 class="text-2xl font-bold mb-3 text-arm-navy hover:text-arm-red transition"><a href="check-engine-light-diagnosis.html">Check Engine Light Diagnosis</a></h2>
+                        <p class="text-gray-600">Check engine light on? Professional diagnostics find the real problem, not just codes.</p>
+                    </div>
+                </article>
 
-            <article class="blog-card mb-6 p-6 border">
-                <h2 class="text-2xl font-bold mb-2"><a href="transmission-repair-coastal-bend.html">Transmission Repair in the Coastal Bend</a></h2>
-                <p class="text-gray-600 mb-2">April 10, 2025</p>
-                <p>Transmission slipping, rough shifting, or won't go into gear? Expert transmission service and repair.</p>
-            </article>
+                <article class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500 mb-2">April 10, 2025</p>
+                        <h2 class="text-2xl font-bold mb-3 text-arm-navy hover:text-arm-red transition"><a href="transmission-repair-coastal-bend.html">Transmission Repair in the Coastal Bend</a></h2>
+                        <p class="text-gray-600">Transmission slipping, rough shifting, or won't go into gear? Expert transmission service and repair.</p>
+                    </div>
+                </article>
 
-            <article class="blog-card mb-6 p-6 border">
-                <h2 class="text-2xl font-bold mb-2"><a href="oil-change-robstown.html">Oil Change Near Robstown</a></h2>
-                <p class="text-gray-600 mb-2">March 22, 2025</p>
-                <p>Quick, professional oil changes for all vehicles. Conventional, synthetic, and diesel oils.</p>
-            </article>
+                <article class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500 mb-2">March 22, 2025</p>
+                        <h2 class="text-2xl font-bold mb-3 text-arm-navy hover:text-arm-red transition"><a href="oil-change-robstown.html">Oil Change Near Robstown</a></h2>
+                        <p class="text-gray-600">Quick, professional oil changes for all vehicles. Conventional, synthetic, and diesel oils.</p>
+                    </div>
+                </article>
 
-            <article class="blog-card mb-6 p-6 border">
-                <h2 class="text-2xl font-bold mb-2"><a href="brake-job-corpus-christi.html">Professional Brake Job in Corpus Christi</a></h2>
-                <p class="text-gray-600 mb-2">March 15, 2025</p>
-                <p>Squealing, grinding, or vibration when braking? Expert brake service from ASE certified mechanics.</p>
-            </article>
+                <article class="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
+                    <div class="p-6">
+                        <p class="text-sm text-gray-500 mb-2">March 15, 2025</p>
+                        <h2 class="text-2xl font-bold mb-3 text-arm-navy hover:text-arm-red transition"><a href="brake-job-corpus-christi.html">Professional Brake Job in Corpus Christi</a></h2>
+                        <p class="text-gray-600">Squealing, grinding, or vibration when braking? Expert brake service from ASE certified mechanics.</p>
+                    </div>
+                </article>
+
+            </div>
         </div>
     </main>
 
-    <footer class="bg-dark text-white py-6 mt-12">
-        <div class="container text-center">
-            <p>&copy; 2026 ARM Auto Repair and Mechanical. ASE Certified. Serving Corpus Christi and the Coastal Bend.</p>
+    <!-- Footer -->
+    <footer class="bg-arm-navy text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="../index.html" class="hover:text-arm-red transition">Home</a></li>
+                        <li><a href="../services.html" class="hover:text-arm-red transition">Services</a></li>
+                        <li><a href="index.html" class="hover:text-arm-red transition">Blog</a></li>
+                        <li><a href="../index.html#contact" class="hover:text-arm-red transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact</h3>
+                    <p class="mb-2">601 E Main St<br>Robstown, TX 78380</p>
+                    <p class="mb-2"><a href="tel:3612201629" class="hover:text-arm-red transition">(361) 220-1629</a></p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Service Area</h3>
+                    <p class="text-sm text-gray-300">Corpus Christi, Robstown, Portland, Ingleside, Aransas Pass, Rockport, and the entire Coastal Bend</p>
+                </div>
+            </div>
+            <div class="text-center border-t border-gray-700 pt-8">
+                <p>&copy; 2026 ARM Auto Repair and Mechanical. All rights reserved.</p>
+            </div>
         </div>
     </footer>
 
-    <script src="../js/script.js"></script>
-    <style>/* Minimal styles for blog posts - inline this into each post */ .bg-red { background-color: #C8102E; } .bg-blue { background-color: #1E3A5F; } .bg-dark { background-color: #0D1B2A; } .text-white { color: white; } .container { max-width: 1200px; margin: 0 auto; padding: 0 1rem; } .logo { height: 60px; } .cta-button { background-color: #C8102E; color: white; padding: 0.5rem 1rem; border-radius: 0.375rem; text-decoration: none; display: inline-block; } .lead { font-size: 1.25rem; font-weight: 500; margin-bottom: 1.5rem; color: #4B5563; } .cta-box { background-color: #1E3A5F; color: white; padding: 2rem; margin: 2rem 0; border-radius: 0.5rem; } .blog-content h2 { font-size: 1.875rem; font-weight: 700; margin-top: 2rem; margin-bottom: 1rem; color: #0D1B2A; } .blog-content h3 { font-size: 1.5rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #1E3A5F; } .blog-content p { margin-bottom: 1rem; line-height: 1.75; } .blog-content ul, .blog-content ol { margin-left: 1.5rem; margin-bottom: 1rem; } .blog-content li { margin-bottom: 0.5rem; line-height: 1.75; } header nav { display: flex; gap: 1.5rem; align-items: center; } header nav a { color: white; text-decoration: none; } header { display: flex; justify-content: space-between; align-items: center; padding: 1rem 0; } footer { text-align: center; padding: 2rem 0; } </style>
 </body>
 </html>

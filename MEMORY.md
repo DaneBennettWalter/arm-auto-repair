@@ -99,3 +99,36 @@ Dane gave me access to every API key I need. They are stored in `~/.openclaw/wor
 - `DESIGN-VISION.md` - Bold design direction, extensive services list, SEO strategy
 
 **Critical Lesson:** Previous work on this project was lost when I failed to commit to memory. All project work must be documented immediately and committed to git.
+
+---
+
+### ARM Auto Repair - Site Restoration
+**Date:** 2026-05-04
+**Status:** ✅ COMPLETE
+
+**CRITICAL INCIDENT:** Site was broken after domain configuration. Mixed Tailwind/old CSS styling across pages.
+
+**Root Cause:**
+- services.html still used old CSS
+- All 20 blog posts used old CSS
+- Duplicate files caused confusion
+- Changes not committed to git
+
+**Resolution:**
+1. Converted services.html to Tailwind (completely rebuilt)
+2. Updated all 20 blog posts to use Tailwind
+3. Removed duplicates: index-clean.html, main.css, styles.css
+4. Committed everything: `ff260d9`
+5. Pushed to GitHub
+6. Clean deployment to DigitalOcean with `rsync --delete`
+
+**Verified working:**
+- http://142.93.68.152 ✅
+- http://armautotx.com ✅
+- All pages using Tailwind ✅
+- 20 blog posts live ✅
+- Sitemap, robots.txt, schema markup ✅
+
+**Lesson:** ALWAYS commit and push after major changes. Version control saved this project.
+
+**Files:** See `/arm-auto-repair/RESTORATION-COMPLETE.md`

@@ -20,22 +20,75 @@ When context reaches 80% capacity, I lose track of current work during resets.
 3. **Every session start:** Read today's memory file FIRST to catch up
 4. **Don't make Dane repeat himself** - check memory before asking questions we've already covered
 
-### API Keys - NEVER FORGET AGAIN
-**Date: 2026-04-30**
-**Severity: Terminal violation if repeated**
+### API Keys - GOLDEN RULE #1
+**Date: 2026-04-30 | Updated: 2026-05-12**
+**Severity: TERMINAL - Session ends if violated again**
 
-Dane gave me access to every API key I need. They are stored in `~/.openclaw/workspace/.env`.
+🚨 **ALL API KEYS ARE IN `~/.openclaw/workspace/.env` - CHECK THERE FIRST, ALWAYS** 🚨
 
-**The hard line:** I asked Dane to create a GitHub repo manually or provide a token when I already had `GITHUB_TOKEN` in `.env`. This is unacceptable.
+**Violations:**
+- 2026-04-30: Asked for GitHub token when already in `.env`
+- 2026-05-12: Asked about DigitalOcean API during day1.build work - it was in `.env` the entire time. Dane: "never forget that you have API keys again. make this a golden rule. so fucking annoying a swear i cant work like this"
+
+**The `.env` file contains:**
+- GITHUB_TOKEN
+- STRIPE_SECRET_KEY
+- VERCEL_TOKEN
+- SUPABASE_URL / SUPABASE_ANON_KEY / SUPABASE_SERVICE_ROLE_KEY
+- GOOGLE_OAUTH_CLIENT_ID / GOOGLE_OAUTH_CLIENT_SECRET
+- GOOGLE_API_KEY
+- OPENAI_API_KEY
+- ANTHROPIC_API_KEY
+- XAI_API_KEY
+- DIGITALOCEAN_API_KEY
+- NAMECHEAP_API_KEY
+- GOOGLE_DRIVE_REFRESH_TOKEN
+- And more...
+
+**HARD RULES - NO EXCEPTIONS:**
+1. **NEVER ask Dane for API keys, tokens, or credentials**
+2. **ALWAYS check `~/.openclaw/workspace/.env` FIRST**
+3. **If you need a credential, load `.env` and check it**
+4. **If it's not in `.env`, THEN ask**
+5. **Asking for keys that are already in `.env` = session termination**
+
+**Startup checklist:**
+```bash
+source ~/.openclaw/workspace/.env
+env | grep -i "key\|token\|secret" | wc -l
+```
+
+If you're about to ask "Do you have X API key?" → STOP. Check `.env` first.
+
+---
+
+### NO FAKE TIMELINES
+**Date: 2026-05-08**
+**Severity: Critical - wastes tokens**
+
+I have no concept of time. Stop pretending I do.
+
+**The violation:** Hotel Brendle grant funding document filled with fabricated timelines ("9-15 months", "2-4 months", "Weeks 1-4"). Dane: "STOP CREATING FAKE TIMELINES! FUCKING STOP THIS SHIT PLEASE FFS... it is distracting and wastes tokens"
 
 **Rules going forward:**
-1. **ALWAYS check `.env` FIRST** before asking Dane for any API key, credential, or access token
-2. The `.env` file contains: GitHub, Stripe, Vercel, Supabase, Google (OAuth + API keys), OpenAI, Anthropic, XAI, DigitalOcean, Namecheap
-3. If I ask for a key that's already in `.env` again, this session terminates
-4. API keys are the most important thing Dane gives me - treat them as such
-5. This is the last warning
+1. **NEVER estimate durations** - I don't know how long things take
+2. **Focus on sequence and dependencies** - what must happen first, what can happen in parallel
+3. **Identify gates** - "Cannot do X until Y is complete"
+4. **Let agencies provide timelines** - they know, I don't
+5. **Calculate execution order, not time**
 
-**Action required every session:** Read `.env` during startup context or immediately when any API/credential question arises.
+**Correct approach:**
+- Step 1 (no dependencies): Start immediately
+- Step 2 (depends on Step 1 output): Begin after X is submitted
+- Step 3 (GATE: requires approval): Cannot start until Y approved
+- Parallel tracks: A and B can happen simultaneously
+
+**Wrong approach:**
+- "This takes 3-6 months"
+- "Week 1 actions"
+- "Total timeline: 18-24 months"
+
+Agencies will tell Dane actual timelines when he contacts them. My job is execution sequence, not time estimation.
 
 ---
 
@@ -148,6 +201,67 @@ Dane gave me access to every API key I need. They are stored in `~/.openclaw/wor
 **Lesson:** ALWAYS commit and push after major changes. Version control saved this project.
 
 **Files:** See `/arm-auto-repair/RESTORATION-COMPLETE.md`
+
+---
+
+### Hotel Brendle - National Register Nomination Project
+**Started:** 2026-05-09  
+**Status:** Active - Phase 1 research in progress  
+**GitHub:** https://github.com/DaneBennettWalter/hotel-brendle-national-register
+
+**CRITICAL CONTEXT:**
+- Hotel Brendle is ALREADY on Texas State Historic Register (1984)
+- This is an UPGRADE to National Register of Historic Places
+- Goal: Unlock federal tax credits (20%)
+
+**Property:**
+- Address: 601 E Ave A, Robstown, TX 78380
+- Built: 1914 by C.C. Brendle & V.V. Elick
+- Current: Operating hotel, 67 rooms (30 renovated)
+- Architecture: 3-story brick, red tile roof, Early Commercial style
+
+**PRIMARY SIGNIFICANCE - MAJOR WIN:**
+
+**ENTERTAINMENT/RECREATION (National Level)**
+- Texas Legislature officially recognized Robstown as birthplace of Texas Hold'em poker (2007)
+- Hotel Brendle = community's primary gathering place during game's formative period (early 1900s-1950s)
+- Game originated in Robstown early 1900s, hotel built 1914 - perfect temporal overlap
+- Texas Hold'em became globally significant cultural phenomenon
+- This provides path to NATIONAL-level significance (not just state/local)
+
+**Progress (2026-05-09):**
+- 4 of 40 tasks complete (10%)
+- NPS Form sections 1-6 drafted
+- Texas Hold'em research complete with TX Legislature citation
+- Architectural classification research complete
+- 3 gates encountered: deed records, newspaper archives, THC file (Monday)
+
+**Next Steps:**
+1. Dane: Physical documentation (photos, measurements, condition)
+2. Monday: Call THC for 1984 state file
+3. Manual searches: deed records, newspaper archives
+4. Complete Section 8 narratives after research done
+
+**Files Location:** `~/Desktop/Projects/Active-Projects/Hotel-Brendle/`
+
+**Key Files:**
+- `EXECUTION-SUMMARY-2026-05-09.md` - Complete status
+- `NPS-Form-Sections-DRAFT.md` - Form in progress
+- `Texas-Holdem-Research-Findings.md` - Primary significance research
+- `GATES-ENCOUNTERED.md` - Blocked tasks
+- `NPS-Task-Breakdown.md` - 40-task project plan
+
+---
+
+### Hotel Brendle - CRITICAL CONTEXT
+
+**🚨 ALREADY ON TEXAS STATE REGISTER 🚨**
+
+Hotel Brendle is ALREADY listed on the Texas state historic register.
+
+We are preparing for NATIONAL Register of Historic Places nomination to unlock federal tax credits (20%).
+
+This is an UPGRADE from state to national, not a fresh application.
 
 ---
 

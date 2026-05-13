@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
+  <office:body>
+    <office:text>
+      <text:h text:style-name="Title">Robstown Municipal Code Research Summary</text:h>
+      <text:p text:style-name="Subtitle">Mobile Homes, RVs, Tiny Homes, and Accessory Dwelling Units</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Prepared for:</text:span> Thomas Tucker</text:p>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Research Date:</text:span> May 8, 2026</text:p>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Primary Property:</text:span> 706 E Ave G, Robstown, TX</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      
+      <text:h text:style-name="Heading_20_1">Executive Summary</text:h>
+      <text:p text:style-name="Text_20_body">This document consolidates research on Robstown municipal code provisions affecting mobile homes, RVs, tiny homes, and accessory dwelling units (ADUs). Research was conducted using the City of Robstown Municipal Code as published on ecode360.com.</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      
+      <text:h text:style-name="Heading_20_2">Key Findings:</text:h>
+      <text:list xml:id="list1" text:style-name="List_20_1">
+        <text:list-item>
+          <text:p text:style-name="List_20_1_20_Start"><text:span text:style-name="Bold">Pre-1976 mobile homes ("trailers"):</text:span> PROHIBITED on individual residential lots</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_1"><text:span text:style-name="Bold">HUD-code manufactured homes (post-1976):</text:span> ALLOWED on individual residential lots (Texas state law preemption)</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_1"><text:span text:style-name="Bold">RVs/Travel trailers:</text:span> Cannot be used as permanent dwellings</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_1"><text:span text:style-name="Bold">Tiny homes on wheels:</text:span> Treated as "trailers" - prohibited on individual lots</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_1"><text:span text:style-name="Bold">ADUs (Accessory Dwelling Units):</text:span> No specific ordinance; likely prohibited for rental use</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_1"><text:span text:style-name="Bold">Mobile home parks:</text:span> Allowed in B-2 zones only (requires rezoning if property is residential)</text:p>
+        </text:list-item>
+      </text:list>
+      <text:p text:style-name="Text_20_body"/>
+      
+      <text:h text:style-name="Heading_20_1">1. Mobile Homes &amp; Trailers</text:h>
+      
+      <text:h text:style-name="Heading_20_2">1.1 Pre-1976 Mobile Homes ("Trailers")</text:h>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Status:</text:span> PROHIBITED on individual residential lots</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Citation: Chapter 14A, Section 3, Definition 35 - TRAILER</text:span></text:p>
+      <text:p text:style-name="Quotation">"Any structure used for living, sleeping, business, or storage purposes, constructed to be towed by a motor vehicle on its own chassis over roads and highways under special permit or license, connected to utilities and designed without a permanent foundation for year-round living as a trailer."</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Quotation"><text:span text:style-name="Bold">"For the purposes of this ordinance a trailer is not a single-family dwelling and no house trailer shall be located, situated, or placed either temporarily or permanently within the city limits of the City of Robstown, Texas, except in designated trailer camps or trailer parks, and when trailers are sold by a dealer in a business or industrial zone."</text:span></text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Italic">Source: https://ecode360.com/40987069</text:span></text:p>
+      <text:p text:style-name="Text_20_body"/>
+      
+      <text:h text:style-name="Heading_20_2">1.2 HUD-Code Manufactured Homes (Post-1976)</text:h>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Status:</text:span> ALLOWED on individual residential lots (state law mandate)</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Legal Basis:</text:span></text:p>
+      <text:list xml:id="list2" text:style-name="List_20_2">
+        <text:list-item>
+          <text:p text:style-name="List_20_2_20_Start">Texas Occupations Code Chapter 1201 (Manufactured Housing)</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">Texas SB 785 (89th Legislature, effective Sept 1, 2026) mandates cities allow HUD-code manufactured homes in at least one residential zone</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">24 CFR Part 3280 (Federal HUD Construction Standards)</text:p>
+        </text:list-item>
+      </text:list>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Requirements:</text:span></text:p>
+      <text:list xml:id="list3" text:style-name="List_20_2">
+        <text:list-item>
+          <text:p text:style-name="List_20_2_20_Start">Permanent foundation (TDI-approved)</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">Licensed installer (TDHCA-approved)</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">Building, electrical, and plumbing permits</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">Must meet standard residential lot minimums (see Section 5)</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">City has 45 days to deny in writing with reasons; otherwise automatically approved</text:p>
+        </text:list-item>
+      </text:list>
+      <text:p text:style-name="Text_20_body"/>
+      
+      <text:h text:style-name="Heading_20_1">2. RV &amp; Recreational Vehicle Regulations</text:h>
+      
+      <text:h text:style-name="Heading_20_2">2.1 Public Street/Alley Parking</text:h>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Citation: Article 12.05.003 - Time Limits</text:span></text:p>
+      <text:p text:style-name="Quotation">"It is unlawful to park any vehicle on a street, alley, or other public place for more than 48 hours at any one time."</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Quotation">"For commercial motor vehicles over 24 feet in overall length, the time limit is restricted to two hours at any one time on any street or alley."</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Italic">Source: Article 12.05, https://ecode360.com/40986083</text:span></text:p>
+      <text:p text:style-name="Text_20_body"/>
+      
+      <text:h text:style-name="Heading_20_2">2.2 Public Right-of-Way Prohibition</text:h>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Citation: Article 12.05.008 - Prohibited Parking</text:span></text:p>
+      <text:p text:style-name="Quotation">"Placing mounted or unmounted trailers on public street rights-of-way, public streets, and alleyways is prohibited."</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Quotation">"Placing campers or canopies within these public areas is also a violation."</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Italic">Source: Article 12.05.008, https://ecode360.com/40986083</text:span></text:p>
+      <text:p text:style-name="Text_20_body"/>
+      
+      <text:h text:style-name="Heading_20_2">2.3 Private Property RV Storage</text:h>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Status:</text:span> UNVERIFIED - Specific ordinance section not found</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body">Multiple secondary sources reference the following provisions, but specific ordinance sections could not be confirmed through available online code:</text:p>
+      <text:list xml:id="list4" text:style-name="List_20_2">
+        <text:list-item>
+          <text:p text:style-name="List_20_2_20_Start">72-hour temporary parking allowance on private residential lots (for loading, cleaning, trip preparation, winterizing, or preparing for off-premise storage)</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">Requirement for parking on "improved surface" (concrete, asphalt, brick, or comparable dust-free paving)</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">Prohibition on using RVs as permanent dwellings</text:p>
+        </text:list-item>
+      </text:list>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Verification Required:</text:span> Contact Robstown Inspections Department to confirm these provisions and obtain specific ordinance section numbers.</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      
+      <text:h text:style-name="Heading_20_1">3. Tiny Homes</text:h>
+      
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Finding:</text:span> Robstown has no specific "tiny home" ordinance. Tiny homes are regulated based on their construction type:</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      
+      <text:h text:style-name="Heading_20_2">3.1 Tiny Homes on Wheels (THOWs)</text:h>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Classification:</text:span> "Trailers" under Chapter 14A, Section 3, Definition 35</text:p>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Status:</text:span> PROHIBITED on individual residential lots</text:p>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Allowed:</text:span> In designated mobile home parks (B-2 zones only)</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      
+      <text:h text:style-name="Heading_20_2">3.2 HUD-Code Manufactured Tiny Homes</text:h>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Classification:</text:span> Manufactured homes (if built to 24 CFR Part 3280 after June 15, 1976)</text:p>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Status:</text:span> ALLOWED on individual residential lots (Texas state law mandate)</text:p>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Requirements:</text:span> Same as Section 1.2 (permanent foundation, licensed installer, permits)</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      
+      <text:h text:style-name="Heading_20_2">3.3 Site-Built Tiny Homes</text:h>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Classification:</text:span> Single-family dwellings (traditional construction)</text:p>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Status:</text:span> ALLOWED in R-1, R-2, R-3 residential zones</text:p>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Requirements:</text:span> Must meet building code and residential lot minimums (see Section 5)</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      
+      <text:h text:style-name="Heading_20_1">4. Accessory Dwelling Units (ADUs)</text:h>
+      
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Finding:</text:span> Robstown has no specific ADU ordinance. Texas has no statewide ADU policy.</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      
+      <text:h text:style-name="Heading_20_2">4.1 Related Ordinance Provisions</text:h>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Citation: Chapter 14A, Section 3 - Accessory Building</text:span></text:p>
+      <text:p text:style-name="Quotation">"Private garage" is defined as an accessory building or a portion of the main use building designed or used for housing motor-driven vehicles belonging to and for the private use of the occupants of the lot. Only one commercial vehicle, not exceeding one and a half tons capacity, is permitted.</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Citation: Chapter 14A, Section 3 - Accessory Use</text:span></text:p>
+      <text:p text:style-name="Quotation">Uses customarily incidental to the main uses, not involving the conduct of business, and located on the same lot. Examples: private garages, bona fide servants' quarters (not for rent or commercial purposes), and private club swimming pools.</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Quotation">An accessory use is one that is incidental to the main use of the premises.</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Italic">Source: Chapter 14A, Section 3, https://ecode360.com/40987069</text:span></text:p>
+      <text:p text:style-name="Text_20_body"/>
+      
+      <text:h text:style-name="Heading_20_2">4.2 Analysis</text:h>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Key Language:</text:span> The servants' quarters definition includes "not for rent or commercial purposes" language.</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Interpretation:</text:span> This suggests accessory dwelling units intended for rental income are likely prohibited, though no explicit ADU prohibition exists.</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Status:</text:span> UNCLEAR - Verification required from city</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Questions for City:</text:span></text:p>
+      <text:list xml:id="list5" text:style-name="List_20_2">
+        <text:list-item>
+          <text:p text:style-name="List_20_2_20_Start">Are ADUs (separate dwelling units on the same lot as a primary residence) permitted in any residential district?</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">Does the "accessory use" definition allow secondary dwelling units for rental or family use?</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">Does the "not for rent" language apply to all accessory structures?</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">If ADUs are allowed, what are the size, setback, and parking requirements?</text:p>
+        </text:list-item>
+      </text:list>
+      <text:p text:style-name="Text_20_body"/>
+      
+      <text:h text:style-name="Heading_20_1">5. Residential Lot Requirements</text:h>
+      
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Citation: Chapter 14A - General Residential Requirements</text:span></text:p>
+      <text:p text:style-name="Quotation">Residential lots in the city are generally required to be:</text:p>
+      <text:list xml:id="list6" text:style-name="List_20_2">
+        <text:list-item>
+          <text:p text:style-name="List_20_2_20_Start">Width: Not less than 50 feet</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">Area: Not less than 6,000 square feet</text:p>
+        </text:list-item>
+      </text:list>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Quotation">Corner lots for residential use should have extra width to allow for appropriate building setback and orientation to both streets.</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Italic">Source: Chapter 14A, https://ecode360.com/RO6460</text:span></text:p>
+      <text:p text:style-name="Text_20_body"/>
+      
+      <text:h text:style-name="Heading_20_2">5.1 Setback Requirements by District</text:h>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">R-1 and R-2 Districts:</text:span></text:p>
+      <text:list xml:id="list7" text:style-name="List_20_2">
+        <text:list-item>
+          <text:p text:style-name="List_20_2_20_Start">Front yard: 25 feet minimum</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">Height: Maximum 2.5 stories or 35 feet</text:p>
+        </text:list-item>
+      </text:list>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Note:</text:span> Rear and side yard setbacks vary by district. Contact city for specific requirements.</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      
+      <text:h text:style-name="Heading_20_1">6. Mobile Home Park Development</text:h>
+      
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Permitted Zone:</text:span> B-2 (Secondary and Highway Business District) ONLY</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Note:</text:span> If 706 E Ave G or other property is zoned residential (R-1/R-2/R-3), rezoning to B-2 would be required through public hearings before Planning &amp; Zoning Commission and City Council.</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      
+      <text:h text:style-name="Heading_20_2">6.1 Density Requirements</text:h>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Maximum Density:</text:span> 10 mobile homes per acre</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      
+      <text:h text:style-name="Heading_20_2">6.2 Setback Requirements</text:h>
+      <text:list xml:id="list8" text:style-name="List_20_2">
+        <text:list-item>
+          <text:p text:style-name="List_20_2_20_Start">Front yard: 25 feet minimum</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">Rear yard: 10 feet minimum</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">Side yard: 6 feet minimum</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">Total side yards: 20 feet unobstructed</text:p>
+        </text:list-item>
+      </text:list>
+      <text:p text:style-name="Text_20_body"/>
+      
+      <text:h text:style-name="Heading_20_2">6.3 Access Requirements</text:h>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Citation: Chapter 14A - Mobile Home Park Regulations</text:span></text:p>
+      <text:p text:style-name="Quotation">Access to the mobile home or trailer park must be from an arterial highway or secondary thoroughfare. The number and location of access drives are controlled for traffic safety and protection of surrounding properties. Individual mobile home or trailer spaces shall not have direct access to a street outside the park boundaries. Interior access drives must be at least 24 feet wide.</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Italic">Source: Chapter 14A, https://ecode360.com/RO6460</text:span></text:p>
+      <text:p text:style-name="Text_20_body"/>
+      
+      <text:h text:style-name="Heading_20_1">7. Zoning Districts Overview</text:h>
+      
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Citation: Chapter 14A - Zoning Districts</text:span></text:p>
+      <text:p text:style-name="Quotation">The City of Robstown is divided into the following zoning districts:</text:p>
+      <text:list xml:id="list9" text:style-name="List_20_2">
+        <text:list-item>
+          <text:p text:style-name="List_20_2_20_Start">"R-1" First One-Family Dwelling District</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">"R-2" Second One-Family Dwelling District</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">"R-3" Duplex and Apartment District</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">"B-1" Neighborhood Business District</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">"B-2" Secondary and Highway Business District</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">"B-3" Central Business District</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">"I" Industrial District</text:p>
+        </text:list-item>
+      </text:list>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Quotation">All newly annexed territory is initially classified as "R-1" First One-Family Dwelling District until it receives permanent zoning from the City of Robstown governing body.</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Italic">Source: Chapter 14A, https://ecode360.com/RO6460</text:span></text:p>
+      <text:p text:style-name="Text_20_body"/>
+      
+      <text:h text:style-name="Heading_20_1">8. Summary Matrix</text:h>
+      
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Individual Residential Lot (R-1/R-2/R-3 zones):</text:span></text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:list xml:id="list10" text:style-name="List_20_2">
+        <text:list-item>
+          <text:p text:style-name="List_20_2_20_Start">Pre-1976 mobile homes ("trailers"): ❌ PROHIBITED</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">HUD-code manufactured homes (post-1976): ✅ ALLOWED (state law)</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">RVs / Travel trailers as dwellings: ❌ PROHIBITED</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">Tiny homes on wheels (THOWs): ❌ PROHIBITED</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">Site-built tiny homes (traditional construction): ✅ ALLOWED</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">ADUs for rental income: ⚠️ UNCLEAR / LIKELY PROHIBITED</text:p>
+        </text:list-item>
+      </text:list>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Mobile Home Park (B-2 zone only):</text:span></text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:list xml:id="list11" text:style-name="List_20_2">
+        <text:list-item>
+          <text:p text:style-name="List_20_2_20_Start">All mobile homes (pre-1976 and post-1976): ✅ ALLOWED</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">Tiny homes on wheels: ✅ ALLOWED</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">Maximum density: 10 homes per acre</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">Access required: Arterial highway or secondary thoroughfare</text:p>
+        </text:list-item>
+      </text:list>
+      <text:p text:style-name="Text_20_body"/>
+      
+      <text:h text:style-name="Heading_20_1">9. Items Requiring City Verification</text:h>
+      
+      <text:p text:style-name="Text_20_body">The following provisions were referenced in secondary sources but could not be verified with specific ordinance section numbers:</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:list xml:id="list12" text:style-name="List_20_2">
+        <text:list-item>
+          <text:p text:style-name="List_20_2_20_Start">72-hour temporary RV parking allowance on private residential lots</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">Improved surface requirements for RV storage on residential property</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">RV length restrictions (36 feet referenced in some sources)</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">14-day annual overnight occupancy limits in RVs</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">Screening/setback requirements for RVs on residential property</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">Whether ADUs are permitted for rental use or family use in any residential district</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">ADU size, setback, and parking requirements (if permitted)</text:p>
+        </text:list-item>
+      </text:list>
+      <text:p text:style-name="Text_20_body"/>
+      
+      <text:h text:style-name="Heading_20_1">10. Contact Information</text:h>
+      
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Robstown Building &amp; Development / Inspections Department</text:span></text:p>
+      <text:list xml:id="list13" text:style-name="List_20_2">
+        <text:list-item>
+          <text:p text:style-name="List_20_2_20_Start"><text:span text:style-name="Bold">Phone:</text:span> 361-387-4589 (option #5 or extension 135)</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2"><text:span text:style-name="Bold">Email:</text:span> qc_hub@cityofrobstown.com</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2"><text:span text:style-name="Bold">Address:</text:span> 101 E Main St, Robstown, TX 78380</text:p>
+        </text:list-item>
+      </text:list>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Recommended Contact Method:</text:span> Call and speak directly with inspections staff for authoritative interpretation of code provisions, especially regarding ADUs and RV storage on private property.</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      
+      <text:h text:style-name="Heading_20_1">11. Primary Source Citations</text:h>
+      
+      <text:h text:style-name="Heading_20_2">Robstown Municipal Code (Online)</text:h>
+      <text:list xml:id="list14" text:style-name="List_20_2">
+        <text:list-item>
+          <text:p text:style-name="List_20_2_20_Start">Chapter 14A: Zoning Ordinance - https://ecode360.com/RO6460</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">Chapter 14A, Section 3: Definitions - https://ecode360.com/40987069</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">Article 3.04: Housing Code - https://ecode360.com/40983426</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">Article 12.05: Parking, Stopping and Standing - https://ecode360.com/40986083</text:p>
+        </text:list-item>
+      </text:list>
+      <text:p text:style-name="Text_20_body"/>
+      
+      <text:h text:style-name="Heading_20_2">Texas State Law</text:h>
+      <text:list xml:id="list15" text:style-name="List_20_2">
+        <text:list-item>
+          <text:p text:style-name="List_20_2_20_Start">Texas Occupations Code Chapter 1201 (Manufactured Housing) - https://statutes.capitol.texas.gov/Docs/OC/htm/OC.1201.htm</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">Texas SB 785 (89th Legislature, effective September 1, 2026)</text:p>
+        </text:list-item>
+      </text:list>
+      <text:p text:style-name="Text_20_body"/>
+      
+      <text:h text:style-name="Heading_20_2">Federal Law</text:h>
+      <text:list xml:id="list16" text:style-name="List_20_2">
+        <text:list-item>
+          <text:p text:style-name="List_20_2_20_Start">24 CFR Part 3280: HUD Manufactured Home Construction and Safety Standards</text:p>
+        </text:list-item>
+      </text:list>
+      <text:p text:style-name="Text_20_body"/>
+      
+      <text:h text:style-name="Heading_20_1">12. Recommendations</text:h>
+      
+      <text:h text:style-name="Heading_20_2">For 706 E Ave G Development:</text:h>
+      <text:list xml:id="list17" text:style-name="List_20_2">
+        <text:list-item>
+          <text:p text:style-name="List_20_2_20_Start"><text:span text:style-name="Bold">First:</text:span> Verify current zoning (use Robstown Web GIS or contact city)</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2"><text:span text:style-name="Bold">If residential (R-1/R-2/R-3):</text:span> HUD-code manufactured home is the cleanest path</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2"><text:span text:style-name="Bold">If mobile home park desired:</text:span> Prepare for B-2 rezoning process (2-3 months minimum, public hearings required)</text:p>
+        </text:list-item>
+      </text:list>
+      <text:p text:style-name="Text_20_body"/>
+      
+      <text:h text:style-name="Heading_20_2">For ADU or Tiny Home Projects:</text:h>
+      <text:list xml:id="list18" text:style-name="List_20_2">
+        <text:list-item>
+          <text:p text:style-name="List_20_2_20_Start">Contact city to confirm ADU rental restrictions before investing in design/permits</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">If ADUs are prohibited for rental, consider site-built tiny home as primary dwelling (not accessory)</text:p>
+        </text:list-item>
+        <text:list-item>
+          <text:p text:style-name="List_20_2">Avoid tiny homes on wheels for permanent dwelling use on individual lots (prohibited)</text:p>
+        </text:list-item>
+      </text:list>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Research conducted:</text:span> May 8, 2026</text:p>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">Prepared by:</text:span> Roan (AI Research Assistant)</text:p>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Bold">For:</text:span> Dane Walter / Thomas Tucker</text:p>
+      <text:p text:style-name="Text_20_body"/>
+      <text:p text:style-name="Text_20_body"><text:span text:style-name="Italic">Note: This document consolidates research from available online sources. For official interpretations and authoritative guidance, consult the City of Robstown Inspections Department directly.</text:span></text:p>
+    </office:text>
+  </office:body>
+</office:document>

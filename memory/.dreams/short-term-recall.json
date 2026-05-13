@@ -1,0 +1,347 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-12T15:01:59.677Z",
+  "entries": {
+    "memory:memory/2026-05-08.md:46:56": {
+      "key": "memory:memory/2026-05-08.md:46:56",
+      "path": "memory/2026-05-08.md",
+      "startLine": 46,
+      "endLine": 56,
+      "source": "memory",
+      "snippet": "- Article 3.04: Housing Code addresses accessory structures (maintenance requirements) **Complete ordinance text not accessible via web search. Hit Gemini API quota limit.** **Created:** `Robstown-ADU-Research.md` ### Contact Info: - Robstown Building & Development: 361-387-4589 ext. 135 - Email: qc_hub@cityofrobstown.com - Office: 101 E Main St, Robstown, TX 78380",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-08T12:43:01.936Z",
+      "lastRecalledAt": "2026-05-08T12:43:01.936Z",
+      "queryHashes": [
+        "95f4b18fb3bb"
+      ],
+      "recallDays": [
+        "2026-05-08"
+      ],
+      "conceptTags": [
+        "3.04",
+        "robstown-adu-research.md",
+        "361-387-4589",
+        "qc-hub",
+        "cityofrobstown.com",
+        "article",
+        "housing",
+        "code"
+      ]
+    },
+    "memory:memory/2026-05-08.md:22:54": {
+      "key": "memory:memory/2026-05-08.md:22:54",
+      "path": "memory/2026-05-08.md",
+      "startLine": 22,
+      "endLine": 54,
+      "source": "memory",
+      "snippet": "- Article 12.05.008: Trailers and campers prohibited on public rights-of-way - Chapter 14A, Section 3, Definition 35: \"Trailer\" definition and prohibition **Could NOT verify specific ordinance sections for:** - 72-hour temporary parking allowance on private residential lots - Improved surface requirements - 36-foot length restrictions (appears to be from other TX cities, not Robstown) - 14-day overnight occupancy limits (appears to be from other TX cities, not Robstown) - Screening requirements (appears to be from other TX cities, not Robstown) Marked unverified provisions clearly in both documents and directed to contact city for confirmation. ### Next Actions Needed: 1. Verify current z",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-08T12:43:01.936Z",
+      "lastRecalledAt": "2026-05-08T12:43:01.936Z",
+      "queryHashes": [
+        "95f4b18fb3bb"
+      ],
+      "recallDays": [
+        "2026-05-08"
+      ],
+      "conceptTags": [
+        "12.05.008",
+        "rights-of-way",
+        "72-hour",
+        "36-foot",
+        "14-day",
+        "article",
+        "trailers",
+        "campers"
+      ]
+    },
+    "memory:memory/2026-04-28.md:49:74": {
+      "key": "memory:memory/2026-04-28.md:49:74",
+      "path": "memory/2026-04-28.md",
+      "startLine": 49,
+      "endLine": 74,
+      "source": "memory",
+      "snippet": "Files above cache boundary are cached (don't re-burn per turn). Files below boundary (HEARTBEAT.md) reload each turn. ### Google Drive Deep Dive (09:51 EDT) **Task**: Review all Drive files to gather context on Dane's journey, aspirations, goals. **Audit scope**: - 460+ files inventoried across 48 folders - Business, Archive, Personal, Space, Tech folders reviewed - Key documents read: Star Ranch pitch, Robstown HOP mission, church vision, BAM-Wagmi archive **Key findings documented in**: `memory/dane-context-deep-dive-2026-04-28.md` **Major insights**: 1. **Journey arc**: Blockchain (2017-2023) → Real Estate & Community Restoration (2024-2026) 2. **ONLY operating asset**: Hotel Brendl",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-08T12:43:01.936Z",
+      "lastRecalledAt": "2026-05-08T12:43:01.936Z",
+      "queryHashes": [
+        "95f4b18fb3bb"
+      ],
+      "recallDays": [
+        "2026-05-08"
+      ],
+      "conceptTags": [
+        "re-burn",
+        "heartbeat.md",
+        "bam-wagmi",
+        "2017-2023",
+        "2024-2026",
+        "above",
+        "cache",
+        "boundary"
+      ]
+    },
+    "memory:memory/2026-05-09.md:722:767": {
+      "key": "memory:memory/2026-05-09.md:722:767",
+      "path": "memory/2026-05-09.md",
+      "startLine": 722,
+      "endLine": 767,
+      "source": "memory",
+      "snippet": "- Build communities → Create culture → Enable participation - Scale model → More cities → Eventually space - **Stack:** Modern web app, Caddy, likely Node.js, AI photo processing for estimates - **This proves day1.build app is finished - just needs routing fix** **4. Hotel Brendle Booking Site** ✅ - URL: https://hotel-brendle.vercel.app - Vercel deployment working - Content loading correctly - Potential issue: Some env vars still missing (Stripe, Supabase) **5. ARM Auto Repair Website** ✅ - URL: http://142.93.68.152 (armautotx.com) - DigitalOcean droplet - Tailwind design working perfectly - All content displaying correctly **6. Hotel Brendle National Register Project** ✅ - Status: Ac",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-12T15:01:56.950Z",
+      "lastRecalledAt": "2026-05-12T15:01:56.950Z",
+      "queryHashes": [
+        "3322ce86c1d0"
+      ],
+      "recallDays": [
+        "2026-05-12"
+      ],
+      "conceptTags": [
+        "node.js",
+        "day1.build",
+        "hotel-brendle.vercel.app",
+        "142.93.68.152",
+        "armautotx.com",
+        "communities",
+        "create",
+        "culture"
+      ]
+    },
+    "memory:memory/2026-05-09.md:468:512": {
+      "key": "memory:memory/2026-05-09.md:468:512",
+      "path": "memory/2026-05-09.md",
+      "startLine": 468,
+      "endLine": 512,
+      "source": "memory",
+      "snippet": "- Scale model → More cities → Eventually space - **Stack:** Modern web app, Caddy, likely Node.js, AI photo processing for estimates - **This proves day1.build app is finished - just needs routing fix** **4. Hotel Brendle Booking Site** ✅ - URL: https://hotel-brendle.vercel.app - Vercel deployment working - Content loading correctly - Potential issue: Some env vars still missing (Stripe, Supabase) **5. ARM Auto Repair Website** ✅ - URL: http://142.93.68.152 (armautotx.com) - DigitalOcean droplet - Tailwind design working perfectly - All content displaying correctly **6. Hotel Brendle National Register Project** ✅ - Status: Active development (not a live site) - Project manager: http://l",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-12T15:01:56.950Z",
+      "lastRecalledAt": "2026-05-12T15:01:56.950Z",
+      "queryHashes": [
+        "3322ce86c1d0"
+      ],
+      "recallDays": [
+        "2026-05-12"
+      ],
+      "conceptTags": [
+        "node.js",
+        "day1.build",
+        "hotel-brendle.vercel.app",
+        "142.93.68.152",
+        "armautotx.com",
+        "scale",
+        "model",
+        "cities"
+      ]
+    },
+    "memory:memory/2026-05-09.md:427:475": {
+      "key": "memory:memory/2026-05-09.md:427:475",
+      "path": "memory/2026-05-09.md",
+      "startLine": 427,
+      "endLine": 475,
+      "source": "memory",
+      "snippet": "- **The app IS finished - it's just misconfigured for day1.build domain** **Root Cause Analysis:** - Droplet: dao1-earth (159.223.161.253, DigitalOcean NYC1) - Server: Caddy web server - Issue: day1.build routing not configured correctly in Caddyfile - dao1.earth works = app is running fine - day1.build broken = virtual host/routing problem **The Fix (Requires SSH):** ```bash ssh root@159.223.161.253 cat /etc/caddy/Caddyfile # Compare dao1.earth config to day1.build config # Copy dao1.earth config, change domain to day1.build systemctl reload caddy # Should work immediately ``` **Priority:** CRITICAL - Your \"finished app\" is working, just needs 5-minute config fix --- **2. DAO1.APP - DN",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-12T15:01:59.677Z",
+      "lastRecalledAt": "2026-05-12T15:01:59.677Z",
+      "queryHashes": [
+        "fe2555b6c0b3"
+      ],
+      "recallDays": [
+        "2026-05-12"
+      ],
+      "conceptTags": [
+        "day1.build",
+        "dao1-earth",
+        "159.223.161.253",
+        "dao1.earth",
+        "host/routing",
+        "etc/caddy/caddyfile",
+        "5-minute",
+        "dao1.app"
+      ]
+    },
+    "memory:memory/2026-05-09.md:681:728": {
+      "key": "memory:memory/2026-05-09.md:681:728",
+      "path": "memory/2026-05-09.md",
+      "startLine": 681,
+      "endLine": 728,
+      "source": "memory",
+      "snippet": "- **Proof:** dao1.earth shows the full working application on same server - **The app IS finished - it's just misconfigured for day1.build domain** **Root Cause Analysis:** - Droplet: dao1-earth (159.223.161.253, DigitalOcean NYC1) - Server: Caddy web server - Issue: day1.build routing not configured correctly in Caddyfile - dao1.earth works = app is running fine - day1.build broken = virtual host/routing problem **The Fix (Requires SSH):** ```bash ssh root@159.223.161.253 cat /etc/caddy/Caddyfile # Compare dao1.earth config to day1.build config # Copy dao1.earth config, change domain to day1.build systemctl reload caddy # Should work immediately ``` **Priority:** CRITICAL - Your \"finishe",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-12T15:01:59.677Z",
+      "lastRecalledAt": "2026-05-12T15:01:59.677Z",
+      "queryHashes": [
+        "fe2555b6c0b3"
+      ],
+      "recallDays": [
+        "2026-05-12"
+      ],
+      "conceptTags": [
+        "dao1.earth",
+        "day1.build",
+        "dao1-earth",
+        "159.223.161.253",
+        "host/routing",
+        "etc/caddy/caddyfile",
+        "proof",
+        "dao1"
+      ]
+    },
+    "memory:memory/2026-05-09.md:393:437": {
+      "key": "memory:memory/2026-05-09.md:393:437",
+      "path": "memory/2026-05-09.md",
+      "startLine": 393,
+      "endLine": 437,
+      "source": "memory",
+      "snippet": "- memory/2026-05-09.md - Complete today's work log - AGENTS.md, SOUL.md, IDENTITY.md - Core identity and operating principles **For Continuity:** - .env - ALL API keys (20+ services) - Hotel Brendle complete documentation (9.0/10 quality) - Project manager database (intact with all tasks/checklist) ### Safety Verification: ✅ Backup repo is PRIVATE ✅ .env included with all API keys ✅ All memory files preserved ✅ Hotel Brendle project complete ✅ Step-by-step migration instructions included ✅ Ready for laptop migration with zero data loss --- **Status:** Backup complete. Safe to migrate to laptop. --- ## Complete Technical Audit - All Systems (2026-05-09 21:01 EDT) **Requested",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-12T15:01:59.677Z",
+      "lastRecalledAt": "2026-05-12T15:01:59.677Z",
+      "queryHashes": [
+        "fe2555b6c0b3"
+      ],
+      "recallDays": [
+        "2026-05-12"
+      ],
+      "conceptTags": [
+        "backup",
+        "memory/2026-05-09.md",
+        "agents.md",
+        "soul.md",
+        "identity.md",
+        "9.0/10",
+        "tasks/checklist",
+        "step-by-step"
+      ]
+    },
+    "memory:memory/2026-05-09.md:756:792": {
+      "key": "memory:memory/2026-05-09.md:756:792",
+      "path": "memory/2026-05-09.md",
+      "startLine": 756,
+      "endLine": 792,
+      "source": "memory",
+      "snippet": "- Recommendation: `git clone https://github.com/DaneBennettWalter/dao1.git` **9. No SSH Access Documented** - Cannot diagnose/fix day1.build without SSH to 159.223.161.253 - Need credentials to check Caddyfile, logs, services --- ### KEY INSIGHT: **Dane said day1.build was \"close to finished but was having catastrophic errors and breaking.\"** **Reality:** The application IS finished and working perfectly (dao1.earth proves it). The \"catastrophic errors\" were deployment configuration issues for the day1.build domain specifically - NOT application failures. **You're 5 minutes from having day1.build working:** 1. SSH to droplet 2. Fix Caddyfile routing 3. Reload Caddy 4. Done --- **Full",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-12T15:01:59.677Z",
+      "lastRecalledAt": "2026-05-12T15:01:59.677Z",
+      "queryHashes": [
+        "fe2555b6c0b3"
+      ],
+      "recallDays": [
+        "2026-05-12"
+      ],
+      "conceptTags": [
+        "diagnose/fix",
+        "day1.build",
+        "159.223.161.253",
+        "dao1.earth",
+        "recommendation",
+        "git",
+        "clone",
+        "https"
+      ]
+    },
+    "memory:memory/2026-05-09.md:646:687": {
+      "key": "memory:memory/2026-05-09.md:646:687",
+      "path": "memory/2026-05-09.md",
+      "startLine": 646,
+      "endLine": 687,
+      "source": "memory",
+      "snippet": "1. Physical documentation (photos, measurements, floor plan) 2. Basic research (Robstown population, city directories) **Priority 2 - Important:** 3. Historical evidence (newspapers, THC file Monday) 4. Community context (oral histories, photographs) **Priority 3 - Nice to Have:** 5. Additional documentation (architectural plans, hotel registers) --- ## Bottom Line **The Hotel Brendle National Register nomination package is comprehensive, internally consistent, and as strong as possible with available information.** **Three full passes:** - Documentation → Argument → Quality Control **Rating:** 9.0/10 (10/10 after Dane's physical documentation) **Status:** Ready for Dane's input, the",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-12T15:01:59.677Z",
+      "lastRecalledAt": "2026-05-12T15:01:59.677Z",
+      "queryHashes": [
+        "fe2555b6c0b3"
+      ],
+      "recallDays": [
+        "2026-05-12"
+      ],
+      "conceptTags": [
+        "9.0/10",
+        "10/10",
+        "physical",
+        "documentation",
+        "photos",
+        "measurements",
+        "floor",
+        "plan"
+      ]
+    },
+    "memory:memory/2026-05-09.md:501:546": {
+      "key": "memory:memory/2026-05-09.md:501:546",
+      "path": "memory/2026-05-09.md",
+      "startLine": 501,
+      "endLine": 546,
+      "source": "memory",
+      "snippet": "- Recommendation: `git clone https://github.com/DaneBennettWalter/dao1.git` **9. No SSH Access Documented** - Cannot diagnose/fix day1.build without SSH to 159.223.161.253 - Need credentials to check Caddyfile, logs, services --- ### KEY INSIGHT: **Dane said day1.build was \"close to finished but was having catastrophic errors and breaking.\"** **Reality:** The application IS finished and working perfectly (dao1.earth proves it). The \"catastrophic errors\" were deployment configuration issues for the day1.build domain specifically - NOT application failures. **You're 5 minutes from having day1.build working:** 1. SSH to droplet 2. Fix Caddyfile routing 3. Reload Caddy 4. Done --- **Full",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-12T15:01:59.677Z",
+      "lastRecalledAt": "2026-05-12T15:01:59.677Z",
+      "queryHashes": [
+        "fe2555b6c0b3"
+      ],
+      "recallDays": [
+        "2026-05-12"
+      ],
+      "conceptTags": [
+        "diagnose/fix",
+        "day1.build",
+        "159.223.161.253",
+        "dao1.earth",
+        "recommendation",
+        "git",
+        "clone",
+        "https"
+      ]
+    }
+  }
+}
